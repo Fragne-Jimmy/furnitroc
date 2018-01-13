@@ -1,4 +1,6 @@
 class PagesController < ApplicationController
-  def home
+  def retirer
+  end
+  def deposer
   end
 end

@@ -9,16 +9,15 @@
   <body>
 
 <div class="icon">
-  <%= image_tag "icon.jpg", class: "icon_img" %>
+<a href="home">  <%= image_tag "icon.jpg", class: "icon_img" %></a>
 </div>
 
 <div class="connexion">
-<li>
-  <%= link_to "Connexion", class: 'connection'%>
-</li>
-<li>
-  <%= link_to "Inscription", class: 'connection'%>
-</li>
+
+  <%= submit_tag 'Connexion'%>
+
+  <%= submit_tag 'Inscription'%>
+
 </div>
 
   <div class="titre">
@@ -42,7 +41,7 @@
 
 <div class="image">
     <div class="lien">
-      <%=link_to "Déposer", params[:return_to], class: 'style_lien' %> &nbsp; <%=link_to "Retirer", params[:return_to], class: 'style_lien' %>
+    <%=link_to "Déposer", "deposer", class: 'style_lien' %> &nbsp; <%=link_to "Retirer", "retirer", class: 'style_lien' %>
     </div>
 </div>
 
@@ -51,6 +50,12 @@
 <div class="who">
   <h3>Qui somme nous ?</h3>
   <button data-toggle="collapse" data-target="#know-more" class="btn btn-default btn-know-more">En savoir +</button>
+</br>
+  <%= mail_to "moi@domaine.dvp", "Contact par mail",
+ :subject=>"formulaire rails",
+ :cc=>"unAutre@email.com",
+ :body=>"un message...",
+ :encoding=>"javascript"%>
 </div>
 
 <div>

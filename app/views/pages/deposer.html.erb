@@ -1,0 +1,20 @@
+<div class="icon">
+<a href="home">  <%= image_tag "icon.jpg", class: "icon_img" %></a>
+</div>
+
+<h1>Proposez</h1>
+<p>Déposez un ou plusieurs meubles au troc !</p>
+
+<p>Nom <%= text_field :p , :nom, :class=>'grise', :size=>'20' %></p>
+<p>Type <%= password_field :p , :nom , :class=>'grise', :size=>'20' %></p>
+</br>
+<p>Description <textarea cols="20" rows="4" id="post_body" name="post[body]"></textarea></p>
+</br>
+<%= hidden_field :p , :nom %>
+<%= file_field_tag :mon_fichier%>
+</br>
+</br>
+<%= submit_tag 'Envoyer'%>
+</br>
+  <%= radio_button :p , :nom,'valeur' %>
+  <%= check_box :p , :nom,:valeur_on=>1, :valeur_off=>0 %>
