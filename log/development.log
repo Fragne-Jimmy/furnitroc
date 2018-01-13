@@ -63,14 +63,14 @@ Completed 200 OK in 13ms (Views: 8.0ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/pages/style_guides/home" for 127.0.0.1 at 2018-01-12 10:18:38 +0100
-  
+
 Started GET "/pages/style_guides/home" for 127.0.0.1 at 2018-01-12 10:18:48 +0100
 Started GET "/pages/home" for 127.0.0.1 at 2018-01-12 10:18:48 +0100
 ActionController::RoutingError (No route matches [GET] "/pages/style_guides/home"):
 Started GET "/pages" for 127.0.0.1 at 2018-01-12 10:18:48 +0100
-  
-  
-  
+
+
+
 ActionController::RoutingError (No route matches [GET] "/pages/style_guides/home"):
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
@@ -99,8 +99,8 @@ puma (3.11.0) lib/puma/server.rb:438:in `process_client'
 puma (3.11.0) lib/puma/server.rb:302:in `block in run'
 puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 ActionController::RoutingError (No route matches [GET] "/pages"):
-  
-  
+
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -207,9 +207,9 @@ Completed 200 OK in 20ms (Views: 12.6ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/pages/style_guides/home" for 127.0.0.1 at 2018-01-12 11:26:25 +0100
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/style_guides/home"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -245,9 +245,9 @@ puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (212.2ms)
 Started GET "/pages" for 127.0.0.1 at 2018-01-12 11:26:26 +0100
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -283,9 +283,9 @@ puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (172.6ms)
 Started GET "/pages/style_guides/home" for 127.0.0.1 at 2018-01-12 11:26:27 +0100
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/style_guides/home"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -332,14 +332,14 @@ Processing by PagesController#home as HTML
 Completed 406 Not Acceptable in 75ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionController::UnknownFormat (PagesController#home is missing a template for this request format and variant.
 
 request.formats: ["text/html"]
 request.variant: []
 
 NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
-  
+
 actionpack (5.0.6) lib/action_controller/metal/implicit_render.rb:56:in `default_render'
 actionpack (5.0.6) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
 actionpack (5.0.6) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
@@ -442,9 +442,9 @@ Completed 200 OK in 111ms (Views: 107.4ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/pages/img_acceuil.jpg" for 127.0.0.1 at 2018-01-12 11:45:35 +0100
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/img_acceuil.jpg"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -487,9 +487,9 @@ Completed 200 OK in 45ms (Views: 41.8ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/pages/assets/images/img_acceuil.jpg" for 127.0.0.1 at 2018-01-12 11:46:02 +0100
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/img_acceuil.jpg"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -532,9 +532,9 @@ Completed 200 OK in 34ms (Views: 29.9ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/pages/assets/images/img_acceuil.jpg" for 127.0.0.1 at 2018-01-12 11:46:04 +0100
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/img_acceuil.jpg"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -577,9 +577,9 @@ Completed 200 OK in 26ms (Views: 22.9ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/pages/assets/images/img_acceuil.jpg" for 127.0.0.1 at 2018-01-12 11:47:22 +0100
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/img_acceuil.jpg"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -617,10 +617,10 @@ puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/pages/home" for 127.0.0.1 at 2018-01-12 11:48:57 +0100
 Started GET "/pages/assets/images/img_acceuil.jpg" for 127.0.0.1 at 2018-01-12 11:48:57 +0100
 Processing by PagesController#home as HTML
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/img_acceuil.jpg"):
   Rendering pages/home.html.erb within layouts/application
-  
+
   Rendered pages/home.html.erb within layouts/application (0.6ms)
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
@@ -662,11 +662,11 @@ Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 0.0ms)
 Started GET "/pages/home" for 127.0.0.1 at 2018-01-12 11:49:55 +0100
 Processing by PagesController#home as HTML
 Started GET "/pages/assets/images/img_acceuil.jpg" for 127.0.0.1 at 2018-01-12 11:49:55 +0100
-  
+
   Rendering pages/home.html.erb within layouts/application
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/img_acceuil.jpg"):
   Rendered pages/home.html.erb within layouts/application (0.4ms)
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -705,9 +705,9 @@ Completed 200 OK in 504ms (Views: 501.5ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/pages/assets/images/img_acceuil.jpg" for 127.0.0.1 at 2018-01-12 11:49:56 +0100
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/img_acceuil.jpg"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -745,10 +745,10 @@ puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/pages/home" for 127.0.0.1 at 2018-01-12 11:50:07 +0100
 Processing by PagesController#home as HTML
 Started GET "/pages/assets/images/img_acceuil.jpg" for 127.0.0.1 at 2018-01-12 11:50:07 +0100
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/img_acceuil.jpg"):
   Rendering pages/home.html.erb within layouts/application
-  
+
   Rendered pages/home.html.erb within layouts/application (0.4ms)
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
@@ -788,9 +788,9 @@ Completed 200 OK in 197ms (Views: 192.7ms | ActiveRecord: 0.0ms)
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (183.3ms)
 Started GET "/pages/assets/images/img_acceuil.jpg" for 127.0.0.1 at 2018-01-12 11:50:07 +0100
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/img_acceuil.jpg"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -829,10 +829,10 @@ Started GET "/pages/home" for 127.0.0.1 at 2018-01-12 11:50:47 +0100
 Processing by PagesController#home as HTML
 Started GET "/pages/assets/images/img_acceuil.jpg" for 127.0.0.1 at 2018-01-12 11:50:47 +0100
   Rendering pages/home.html.erb within layouts/application
-  
+
   Rendered pages/home.html.erb within layouts/application (0.4ms)
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/img_acceuil.jpg"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -864,10 +864,10 @@ Completed 200 OK in 35ms (Views: 32.6ms | ActiveRecord: 0.0ms)
 
 Started GET "/pages/assets/images/img_acceuil.jpg" for 127.0.0.1 at 2018-01-12 11:50:47 +0100
   Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/img_acceuil.jpg"):
   Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  
+
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
@@ -913,9 +913,9 @@ Processing by PagesController#home as HTML
   Rendering pages/home.html.erb within layouts/application
 Started GET "/pages/assets/images/img_acceuil.jpg" for 127.0.0.1 at 2018-01-12 11:51:10 +0100
   Rendered pages/home.html.erb within layouts/application (0.4ms)
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/img_acceuil.jpg"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -947,11 +947,11 @@ Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.0ms)
 
   Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
 Started GET "/pages/assets/images/img_acceuil.jpg" for 127.0.0.1 at 2018-01-12 11:51:10 +0100
-  
+
   Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/img_acceuil.jpg"):
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
-  
+
   Rendered collection of /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.0ms)
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
@@ -994,11 +994,11 @@ puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/pages/home" for 127.0.0.1 at 2018-01-12 11:51:37 +0100
 Processing by PagesController#home as HTML
 Started GET "/pages/assets/images/img_acceuil.jpg" for 127.0.0.1 at 2018-01-12 11:51:37 +0100
-  
+
   Rendering pages/home.html.erb within layouts/application
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/img_acceuil.jpg"):
   Rendered pages/home.html.erb within layouts/application (0.5ms)
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -1037,9 +1037,9 @@ Completed 200 OK in 434ms (Views: 430.4ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/pages/assets/images/img_acceuil.jpg" for 127.0.0.1 at 2018-01-12 11:51:38 +0100
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/img_acceuil.jpg"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -1077,10 +1077,10 @@ puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/pages/home" for 127.0.0.1 at 2018-01-12 11:53:06 +0100
 Processing by PagesController#home as HTML
 Started GET "/pages/assets/images/img_acceuil.jpg" for 127.0.0.1 at 2018-01-12 11:53:06 +0100
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/img_acceuil.jpg"):
   Rendering pages/home.html.erb within layouts/application
-  
+
   Rendered pages/home.html.erb within layouts/application (0.4ms)
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
@@ -1114,11 +1114,11 @@ Completed 200 OK in 35ms (Views: 33.2ms | ActiveRecord: 0.0ms)
   Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
 Started GET "/pages/assets/images/img_acceuil.jpg" for 127.0.0.1 at 2018-01-12 11:53:06 +0100
   Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  
+
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/img_acceuil.jpg"):
   Rendered collection of /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.3ms)
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -1161,10 +1161,10 @@ Started GET "/pages/home" for 127.0.0.1 at 2018-01-12 11:53:44 +0100
 Processing by PagesController#home as HTML
 Started GET "/pages/assets/images/img_acceuil.jpg" for 127.0.0.1 at 2018-01-12 11:53:44 +0100
   Rendering pages/home.html.erb within layouts/application
-  
+
   Rendered pages/home.html.erb within layouts/application (0.4ms)
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/img_acceuil.jpg"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -1197,11 +1197,11 @@ Completed 200 OK in 34ms (Views: 31.5ms | ActiveRecord: 0.0ms)
   Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
 Started GET "/pages/assets/images/img_acceuil" for 127.0.0.1 at 2018-01-12 11:53:44 +0100
   Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  
+
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/img_acceuil"):
   Rendered collection of /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.1ms)
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -1255,9 +1255,9 @@ Completed 200 OK in 25ms (Views: 22.3ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/pages/assets/images/img_acceuil.jpg" for 127.0.0.1 at 2018-01-12 11:59:41 +0100
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/img_acceuil.jpg"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -1300,9 +1300,9 @@ Completed 200 OK in 91ms (Views: 88.4ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/pages/assets/images/pino.jpg" for 127.0.0.1 at 2018-01-12 12:00:30 +0100
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/pino.jpg"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -1354,9 +1354,9 @@ Completed 200 OK in 20ms (Views: 15.0ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/pages/style_guides/home" for 127.0.0.1 at 2018-01-12 19:27:41 +0100
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/style_guides/home"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -1392,9 +1392,9 @@ puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.6ms)
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (296.8ms)
 Started GET "/pages" for 127.0.0.1 at 2018-01-12 19:27:42 +0100
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -1437,9 +1437,9 @@ Completed 200 OK in 493ms (Views: 489.0ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/pages/assets/images/pino.jpg" for 127.0.0.1 at 2018-01-12 19:27:43 +0100
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/pino.jpg"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -1475,15 +1475,15 @@ puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (326.8ms)
 Started GET "/pages/home" for 127.0.0.1 at 2018-01-12 19:31:29 +0100
-  
+
 ArgumentError (Missing :controller key on routes definition, please check your routes.):
 Started GET "/pages/assets/images/pino.jpg" for 127.0.0.1 at 2018-01-12 19:31:29 +0100
-  
-  
+
+
 config/routes.rb:2:in `block in <top (required)>'
 config/routes.rb:1:in `<top (required)>'
 ActionController::RoutingError (No route matches [GET] "/pages/assets/images/pino.jpg"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -1526,9 +1526,9 @@ puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (130.9ms)
 Started GET "/pages/style_guides/home" for 127.0.0.1 at 2018-01-12 19:31:35 +0100
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/style_guides/home"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -1563,9 +1563,9 @@ puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (146.5ms)
 Started GET "/" for 127.0.0.1 at 2018-01-12 19:31:35 +0100
-  
+
 ActionController::RoutingError (No route matches [GET] "/"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -1597,10 +1597,10 @@ puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
 Started GET "/" for 127.0.0.1 at 2018-01-12 19:31:36 +0100
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
-  
+
 ActionController::RoutingError (No route matches [GET] "/"):
   Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  
+
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
@@ -1643,9 +1643,9 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 27ms (Views: 24.4ms | ActiveRecord: 0.0ms)
 
 
-  
+
 ActionController::RoutingError (No route matches [GET] "/assets/images/pino.jpg"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -1685,9 +1685,9 @@ Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/images/assets/images/pino.jpg" for 127.0.0.1 at 2018-01-12 19:40:00 +0100
-  
+
 ActionController::RoutingError (No route matches [GET] "/images/assets/images/pino.jpg"):
-  
+
 actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -2108,9 +2108,9 @@ Completed 200 OK in 46ms (Views: 42.5ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/" for 127.0.0.1 at 2018-01-12 22:21:31 +0100
-  
-LoadError (cannot load such file -- /Users/jimmy/Desktop/furnitour/config/routes.rb):
-  
+
+LoadError (cannot load such file -- /Users/jimmy/Desktop/furnitroc/config/routes.rb):
+
 activesupport (5.0.6) lib/active_support/dependencies.rb:287:in `load'
 activesupport (5.0.6) lib/active_support/dependencies.rb:287:in `block in load'
 activesupport (5.0.6) lib/active_support/dependencies.rb:259:in `load_dependency'
@@ -2179,9 +2179,9 @@ puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
   Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (163.6ms)
 Started GET "/" for 127.0.0.1 at 2018-01-12 22:21:36 +0100
-  
-ActiveRecord::NoDatabaseError (No such file or directory @ dir_s_mkdir - /Users/jimmy/Desktop/furnitour/db):
-  
+
+ActiveRecord::NoDatabaseError (No such file or directory @ dir_s_mkdir - /Users/jimmy/Desktop/furnitroc/db):
+
 activerecord (5.0.6) lib/active_record/connection_adapters/sqlite3_adapter.rb:37:in `rescue in sqlite3_connection'
 activerecord (5.0.6) lib/active_record/connection_adapters/sqlite3_adapter.rb:14:in `sqlite3_connection'
 activerecord (5.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:729:in `new_connection'
@@ -2250,7 +2250,7 @@ Processing by PagesController#home as HTML
 Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `[]' for nil:NilClass):
     13: 		<div class="col-md-5 images marge-top-50">
     14: 			<div class="quantity-carousel carousel slide" data-ride="carousel" data-interval="false">
@@ -2259,7 +2259,7 @@ ActionView::Template::Error (undefined method `[]' for nil:NilClass):
     17: 					<% if color %>
     18: 					<div class="item">
     19: 							<div id="<%= color.id %>" class="product-carousel-image big">
-  
+
 app/views/pages/home.html.erb:16:in `_app_views_pages_home_html_erb___2014922374674207024_70206946839520'
   Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -2276,7 +2276,7 @@ Processing by PagesController#home as HTML
 Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `[]' for nil:NilClass):
     13: 		<div class="col-md-5 images marge-top-50">
     14: 			<div class="quantity-carousel carousel slide" data-ride="carousel" data-interval="false">
@@ -2285,7 +2285,7 @@ ActionView::Template::Error (undefined method `[]' for nil:NilClass):
     17: 					<% if color %>
     18: 					<div class="item">
     19: 								<%= link_to image_tag(images.first.media.url(:medium), title: color.name), '#', class: "image-color-#{color.id}" %>
-  
+
 app/views/pages/home.html.erb:16:in `_app_views_pages_home_html_erb___2014922374674207024_70206960091740'
   Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -2412,5 +2412,17 @@ Processing by PagesController#home as HTML
   Rendering pages/home.html.erb within layouts/application
   Rendered pages/home.html.erb within layouts/application (3.1ms)
 Completed 200 OK in 52ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-13 11:48:58 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 35ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2018-01-13 11:55:05 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 93ms (Views: 88.6ms | ActiveRecord: 0.0ms)
 
 
