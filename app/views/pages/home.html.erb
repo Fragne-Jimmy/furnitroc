@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Furnitroc</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+  </head>
+  <body>
+    <h1>Furnitroc</h1>
+
+    <h5>Give your office furniture a new life !</h5>
+
+    <%= image_tag "img_acceuil.jpg" %>
+
+    <div class="col-md-6 back">
+				<%=link_to "Déposer", params[:return_to], class: 'btn btn-default' %> &nbsp; <%=link_to "Retirer", params[:return_to], class: 'btn btn-default' %>
+			</div>
+
+    <p>Votre entreprise change de mobilier ? Nouvelle décoration pour votre bureau ?</p>
+    <p>Pensez à Furnitroc !</p>
+
+    <p>Parce qu'une entreprise peut compter sur son équipe mais aussi sur un mobilier fidèle au poste jours après jours...</p>
+
+    <p>Notre équipe vous mets en relation avec d'autres entreprises, collectivités ou associations pour que vos meubles soient toujours utiles.</p>
+
+<div class="who">
+  <h3>Qui somme nous ?</h3>
+  <button data-toggle="collapse" data-target="#know-more" class="btn btn-default btn-know-more">En savoir +</button>
+</div>
+
+<div>
+  <h3>Nous contacter</h3>
+  <div class="social-btns">
+    <a class="btn facebook" href="#">
+      <i class="fa fa-facebook"></i>
+    </a>
+    <a class="btn twitter" href="#">
+      <i class="fa fa-twitter"></i>
+    </a>
+    <a class="btn google" href="#">
+      <i class="fa fa-google"></i>
+    </a>
+    <a class="btn dribbble" href="#">
+      <i class="fa fa-dribbble"></i>
+    </a>
+    <a class="btn skype" href="#">
+      <i class="fa fa-skype"></i>
+    </a>
+</div>
+</div>
+
+  </body>
+</html>
