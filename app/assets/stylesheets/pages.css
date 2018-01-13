@@ -7,12 +7,42 @@ h1{
   color : blue;
 }
 
+.icon{
+  position: absolute;
+}
+
+.icon_img{
+  border-radius: 5%;
+  width: 100px;
+}
+
+.titre{
+
+}
+
+.connexion{
+  text-align: right;
+  padding-right: 100px;
+  margin-top: -50px;
+}
+
+.image{
+  background-image: url("img_acceuil.jpg");
+  height: 500px;
+}
+
+.lien{
+  padding-top: 250px;
+}
+
 .who{
   height: 200px;
   background-color: blue;
-  padding-top: 100px
+  padding-top: 100px;
 }
 
+
+/* socials */
 
 @import '//codepen.io/chrisdothtml/pen/ojLzJK.css';
 .social-btns .btn,

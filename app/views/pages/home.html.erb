@@ -6,15 +6,31 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
   </head>
   <body>
+
+<div class="icon">
+  <%= image_tag "icon.jpg", class: "icon_img" %>
+</div>
+
+  <div class="titre">
     <h1>Furnitroc</h1>
 
     <h5>Give your office furniture a new life !</h5>
+  </div>
 
-    <%= image_tag "img_acceuil.jpg" %>
+    <div class="connexion">
+    <li>
+      <%= link_to "Connexion"%>
+    </li>
+    <li>
+      <%= link_to "Inscription"%>
+    </li>
+    </div>
 
-    <div class="col-md-6 back">
-				<%=link_to "Déposer", params[:return_to], class: 'btn btn-default' %> &nbsp; <%=link_to "Retirer", params[:return_to], class: 'btn btn-default' %>
-			</div>
+  <div class="image">
+      <div class="lien">
+				<%=link_to "Déposer", params[:return_to], class: '' %> &nbsp; <%=link_to "Retirer", params[:return_to], class: '' %>
+      </div>
+  </div>
 
     <p>Votre entreprise change de mobilier ? Nouvelle décoration pour votre bureau ?</p>
     <p>Pensez à Furnitroc !</p>
@@ -48,6 +64,8 @@
     </a>
 </div>
 </div>
+
+
 
   </body>
 </html>
