@@ -4,43 +4,49 @@
     <meta charset="utf-8">
     <title>Furnitroc</title>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
-  </head>
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">  </head>
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
   <body>
 
 <div class="icon">
   <%= image_tag "icon.jpg", class: "icon_img" %>
 </div>
 
+<div class="connexion">
+<li>
+  <%= link_to "Connexion", class: 'connection'%>
+</li>
+<li>
+  <%= link_to "Inscription", class: 'connection'%>
+</li>
+</div>
+
   <div class="titre">
     <h1>Furnitroc</h1>
-
     <h5>Give your office furniture a new life !</h5>
   </div>
 
-    <div class="connexion">
-    <li>
-      <%= link_to "Connexion"%>
-    </li>
-    <li>
-      <%= link_to "Inscription"%>
-    </li>
-    </div>
-
+</br>
+</br>
 </br>
 </br>
 
-  <div class="image">
-      <div class="lien">
-				<%=link_to "Déposer", params[:return_to], class: 'style_lien' %> &nbsp; <%=link_to "Retirer", params[:return_to], class: 'style_lien' %>
-      </div>
-  </div>
-
+<div class="text">
     <p>Votre entreprise change de mobilier ? Nouvelle décoration pour votre bureau ?</p>
     <p>Pensez à Furnitroc !</p>
 
     <p>Parce qu'une entreprise peut compter sur son équipe mais aussi sur un mobilier fidèle au poste jours après jours...</p>
 
     <p>Notre équipe vous mets en relation avec d'autres entreprises, collectivités ou associations pour que vos meubles soient toujours utiles.</p>
+</div>
+
+<div class="image">
+    <div class="lien">
+      <%=link_to "Déposer", params[:return_to], class: 'style_lien' %> &nbsp; <%=link_to "Retirer", params[:return_to], class: 'style_lien' %>
+    </div>
+</div>
+
+<div class="white_space"></div>
 
 <div class="who">
   <h3>Qui somme nous ?</h3>

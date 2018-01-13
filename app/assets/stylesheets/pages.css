@@ -1,10 +1,19 @@
 body{
   text-align: center;
-  background-color: lightblue;
+  background-image: url("texture.png");
+  background-size: contain;
 }
 
 h1{
-  color : blue;
+  color : black;
+  font-size: 1000%;
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+h5{
+  margin-top: -9%;
+  text-align: center;
 }
 
 .icon{
@@ -22,20 +31,22 @@ h1{
 
 .connexion{
   text-align: right;
-  padding-right: 100px;
-  margin-top: -50px;
+  display: inline-flex;
+  margin-left: 70%;
+}
+
+.connection{
+
 }
 
 .image{
-  background-image: url("img_acceuil.jpg");
-  background-repeat: no-repeat;
-  height: 450px;
-  margin-left: 25%;
+  margin-left: 70%;
+  margin-top: -22%;
+  height: 5000%;
 }
 
 .lien{
-  padding-top: 200px;
-  padding-right: 35%;
+
 }
 
 .style_lien{
@@ -44,9 +55,23 @@ h1{
   color: black;
 }
 
+
+.text{
+  text-align: left;
+  margin-left: 10%;
+  width: 510px;
+  height: 370px;
+  font-size: 120%;
+  font-family: 'Caveat Brush', cursive;
+}
+
+.white_space{
+  height: 250px;
+}
+
 .who{
   height: 200px;
-  background-color: blue;
+  background-color: rgba(196, 250, 255, 0.63);
   padding-top: 100px;
 }
 
@@ -120,7 +145,7 @@ h1{
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: lightgrey;
+  background-color: rgba(211, 211, 211, 0.49);
 }
 .social-btns .btn {
   display: inline-block;
