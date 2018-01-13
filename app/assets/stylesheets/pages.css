@@ -12,7 +12,7 @@ h1{
 }
 
 .icon_img{
-  border-radius: 5%;
+  border-radius: 50%;
   width: 100px;
 }
 
@@ -28,11 +28,20 @@ h1{
 
 .image{
   background-image: url("img_acceuil.jpg");
-  height: 500px;
+  background-repeat: no-repeat;
+  height: 450px;
+  margin-left: 25%;
 }
 
 .lien{
-  padding-top: 250px;
+  padding-top: 200px;
+  padding-right: 35%;
+}
+
+.style_lien{
+  background-color: lightblue;
+  font-size: 200%;
+  color: black;
 }
 
 .who{
