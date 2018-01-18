@@ -1,20 +1,33 @@
-<div class="icon">
-<a href="home">  <%= image_tag "icon.jpg", class: "icon_img" %></a>
-</div>
+.icon
+  a(
+    href = "home"
+  )
+    = image_tag "icon.jpg",
+      class: "icon_img"
 
-<h1>Proposez</h1>
-<p>Déposez un ou plusieurs meubles au troc !</p>
+h1
+  | Proposez
+p
+  | Déposez un ou plusieurs meubles au troc !
+p
+  | Nom #{text_field :p , :nom, :class=>'grise', :size=>'20'}
+p
+  | Type #{password_field :p , :nom , :class=>'grise', :size=>'20'}
+p
+  | Description
 
-<p>Nom <%= text_field :p , :nom, :class=>'grise', :size=>'20' %></p>
-<p>Type <%= password_field :p , :nom , :class=>'grise', :size=>'20' %></p>
-</br>
-<p>Description <textarea cols="20" rows="4" id="post_body" name="post[body]"></textarea></p>
-</br>
-<%= hidden_field :p , :nom %>
-<%= file_field_tag :mon_fichier%>
-</br>
-</br>
-<%= submit_tag 'Envoyer'%>
-</br>
-  <%= radio_button :p , :nom,'valeur' %>
-  <%= check_box :p , :nom,:valeur_on=>1, :valeur_off=>0 %>
+  textarea#post_body(
+    cols = "20"
+    name = "post[body]"
+    rows = "4"
+  )
+
+= hidden_field :p , :nom
+
+= file_field_tag :mon_fichier
+
+= submit_tag 'Envoyer'
+
+= radio_button :p , :nom,'valeur'
+
+= check_box :p , :nom,:valeur_on=>1, :valeur_off=>0
