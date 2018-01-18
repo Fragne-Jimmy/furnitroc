@@ -18,7 +18,7 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 gem 'devise'
 gem 'super_module'
 gem 'simple_form'
-gem 'rake', '< 11.0'
+gem 'rake'
 gem "slim-rails"
 gem "action_service", path: "./vendor/action_service"
 gem "seedbank"
@@ -29,10 +29,7 @@ gem 'rb-readline'
 gem 'route_translator'
 gem "awesome_print"
 gem 'lorem_ipsum_amet'
-gem 'uglifier', '>= 1.3.0'
 gem 'pg', '~> 0.15'
-gem 'turbolinks'
-gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem "raygun4ruby"
 
@@ -46,5 +43,3 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
-
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
