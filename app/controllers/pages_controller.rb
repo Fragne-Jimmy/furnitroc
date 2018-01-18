@@ -3,4 +3,6 @@ class PagesController < ApplicationController
   end
   def deposer
   end
+  def home
+  end
 end
