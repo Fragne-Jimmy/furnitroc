@@ -23,23 +23,29 @@
 .image
   .lien
     = link_to "Déposer", deposer_path, class: 'style_lien'
+    br
+    br
     = link_to "Retirer", retirer_path, class: 'style_lien'
 
-.white_space
-  .who
-    h3
-      | Qui somme nous ?
-    button.btn.btn-default.btn-know-more(
-      data-target = "#know-more"
-      data-toggle = "collapse"
-    )
-      | En savoir +
+br
+br
+br
+br
 
-    = mail_to "moi@domaine.dvp", "Contact par mail",
-      :subject => "formulaire rails",
-      :cc => "unAutre@email.com",
-      :body => "un message...",
-      :encoding => "javascript"
+.who
+  h3
+    | Qui somme nous ?
+  button.btn.btn-default.btn-know-more(
+    data-target = "#know-more"
+    data-toggle = "collapse"
+  )
+    | En savoir +
+  br
+  = mail_to "moi@domaine.dvp", "Contact par mail",
+    :subject => "formulaire rails",
+    :cc => "unAutre@email.com",
+    :body => "un message...",
+    :encoding => "javascript"
 div
   h3
     | Nous contacter
