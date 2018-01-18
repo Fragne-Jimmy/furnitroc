@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Furnitroc</title>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
-   </head>
-  <body>
-
 <div class="icon">
-<a href="home"><%= image_tag "icon.jpg", class: "icon_img" %></a>
+  <%=link_to root_url do%>
+    <%=image_tag "icon.jpg", class: "icon_img" %>
+  <% end %>
 </div>
 
 <div class="connexion">
@@ -42,7 +33,7 @@
 
 <div class="image">
     <div class="lien">
-    <%=link_to "Déposer", "pages/deposer", class: 'style_lien' %> &nbsp; <%=link_to "Retirer", "pages/retirer", class: 'style_lien' %>
+    <%=link_to "Déposer", deposer_path, class: 'style_lien' %> &nbsp; <%=link_to "Retirer", retirer_path, class: 'style_lien' %>
     </div>
 </div>
 
@@ -79,8 +70,3 @@
     </a>
 </div>
 </div>
-
-
-
-  </body>
-</html>
