@@ -16021,3 +16021,655 @@ Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.0ms)
 >>>>>>> 097fa1afab9fea33e04567324dbcdea4e46bd49c
 
 
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:30:54 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1148.2ms)
+Completed 200 OK in 1975ms (Views: 1247.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/deposer" for 127.0.0.1 at 2018-01-18 21:31:00 +0100
+Processing by PagesController#deposer as HTML
+  Rendering pages/deposer.html.slim within layouts/application
+  Rendered pages/deposer.html.slim within layouts/application (145.5ms)
+Completed 200 OK in 181ms (Views: 174.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:31:01 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 63ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:34:31 +0100
+Processing by PagesController#home as HTML
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:34:31 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (8.1ms)
+  Rendered pages/home.html.slim within layouts/application (41.5ms)
+Completed 401 Unauthorized in 74ms (ActiveRecord: 0.0ms)
+
+
+Completed 401 Unauthorized in 60ms (ActiveRecord: 0.0ms)
+
+
+  
+  
+SyntaxError (/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:28: syntax error, unexpected '|'
+subject=>"formulaire rails",                  |: do; 
+                                               ^
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:29: syntax error, unexpected ',', expecting ')'
+...html_safe(("unAutre@email.com",                      |:))).t...
+...                               ^
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:30: syntax error, unexpected ',', expecting ')'
+...ape_html_safe(("un message...",                        |:)))...
+...                               ^
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:31: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...ipt"                        |:))).to_s)); 
+...                               ^
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:32: syntax error, unexpected keyword_end, expecting ')'
+...t(("</encoding> ".freeze)); end; @output_buffer.safe_concat(...
+...                               ^
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:46: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:48: syntax error, unexpected keyword_end, expecting ')'):
+SyntaxError (/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:28: syntax error, unexpected '|'
+subject=>"formulaire rails",                  |: do; 
+                                               ^
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:29: syntax error, unexpected ',', expecting ')'
+...html_safe(("unAutre@email.com",                      |:))).t...
+...                               ^
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:30: syntax error, unexpected ',', expecting ')'
+...ape_html_safe(("un message...",                        |:)))...
+...                               ^
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:31: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...ipt"                        |:))).to_s)); 
+...                               ^
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:32: syntax error, unexpected keyword_end, expecting ')'
+...t(("</encoding> ".freeze)); end; @output_buffer.safe_concat(...
+...                               ^
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:46: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:48: syntax error, unexpected keyword_end, expecting ')'):
+  
+  
+app/views/pages/home.html.slim:28: syntax error, unexpected '|'
+app/views/pages/home.html.slim:29: syntax error, unexpected ',', expecting ')'
+app/views/pages/home.html.slim:30: syntax error, unexpected ',', expecting ')'
+app/views/pages/home.html.slim:31: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+app/views/pages/home.html.slim:32: syntax error, unexpected keyword_end, expecting ')'
+app/views/pages/home.html.slim:46: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/pages/home.html.slim:48: syntax error, unexpected keyword_end, expecting ')'
+app/views/pages/home.html.slim:28: syntax error, unexpected '|'
+app/views/pages/home.html.slim:29: syntax error, unexpected ',', expecting ')'
+app/views/pages/home.html.slim:30: syntax error, unexpected ',', expecting ')'
+app/views/pages/home.html.slim:31: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+app/views/pages/home.html.slim:32: syntax error, unexpected keyword_end, expecting ')'
+app/views/pages/home.html.slim:46: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/pages/home.html.slim:48: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (283.3ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (235.1ms)
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:36:53 +0100
+Processing by PagesController#home as HTML
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:36:53 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (7.7ms)
+  Rendering pages/home.html.slim within layouts/application
+Completed 401 Unauthorized in 31ms (ActiveRecord: 0.0ms)
+
+
+  Rendered pages/home.html.slim within layouts/application (7.2ms)
+  
+Completed 401 Unauthorized in 28ms (ActiveRecord: 0.0ms)
+
+
+SyntaxError (/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:38: syntax error, unexpected '|'
+subject=>"formulaire rails",                  |: do; 
+                                               ^
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:39: syntax error, unexpected ',', expecting ')'
+...html_safe(("unAutre@email.com",                      |:))).t...
+...                               ^
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:40: syntax error, unexpected ',', expecting ')'
+...ape_html_safe(("un message...",                        |:)))...
+...                               ^
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:41: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...ipt"                        |:))).to_s)); 
+...                               ^
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:42: syntax error, unexpected keyword_end, expecting ')'
+...t(("</encoding> ".freeze)); end; @output_buffer.safe_concat(...
+...                               ^
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:56: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:58: syntax error, unexpected keyword_end, expecting ')'):
+  
+  
+SyntaxError (/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:38: syntax error, unexpected '|'
+subject=>"formulaire rails",                  |: do; 
+                                               ^
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:39: syntax error, unexpected ',', expecting ')'
+...html_safe(("unAutre@email.com",                      |:))).t...
+...                               ^
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:40: syntax error, unexpected ',', expecting ')'
+...ape_html_safe(("un message...",                        |:)))...
+...                               ^
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:41: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...ipt"                        |:))).to_s)); 
+...                               ^
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:42: syntax error, unexpected keyword_end, expecting ')'
+...t(("</encoding> ".freeze)); end; @output_buffer.safe_concat(...
+...                               ^
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:56: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim:58: syntax error, unexpected keyword_end, expecting ')'):
+app/views/pages/home.html.slim:38: syntax error, unexpected '|'
+app/views/pages/home.html.slim:39: syntax error, unexpected ',', expecting ')'
+app/views/pages/home.html.slim:40: syntax error, unexpected ',', expecting ')'
+app/views/pages/home.html.slim:41: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+app/views/pages/home.html.slim:42: syntax error, unexpected keyword_end, expecting ')'
+app/views/pages/home.html.slim:56: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/pages/home.html.slim:58: syntax error, unexpected keyword_end, expecting ')'
+  
+app/views/pages/home.html.slim:38: syntax error, unexpected '|'
+app/views/pages/home.html.slim:39: syntax error, unexpected ',', expecting ')'
+app/views/pages/home.html.slim:40: syntax error, unexpected ',', expecting ')'
+app/views/pages/home.html.slim:41: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+app/views/pages/home.html.slim:42: syntax error, unexpected keyword_end, expecting ')'
+app/views/pages/home.html.slim:56: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/pages/home.html.slim:58: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (222.9ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (303.5ms)
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:38:12 +0100
+Processing by PagesController#home as HTML
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:38:12 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (289.1ms)
+Completed 401 Unauthorized in 510ms (ActiveRecord: 0.0ms)
+
+
+  Rendered pages/home.html.slim within layouts/application (634.1ms)
+  
+Completed 401 Unauthorized in 656ms (ActiveRecord: 0.0ms)
+
+
+ActionView::Template::Error (undefined local variable or method `subject' for #<#<Class:0x007fbef09213d0>:0x007fbeef6be5f8>):
+  
+    36:     | En savoir +
+    37:     
+    38:   = mail_to "moi@domaine.dvp", "Contact par mail",
+    39:     subject=>"formulaire rails",
+    40:     cc=>"unAutre@email.com",
+    41:     body=>"un message...",
+    42:     encoding=>"javascript"
+ActionView::Template::Error (undefined local variable or method `subject' for #<#<Class:0x007fbef09213d0>:0x007fbeef60fa08>):
+  
+    36:     | En savoir +
+    37:     
+    38:   = mail_to "moi@domaine.dvp", "Contact par mail",
+    39:     subject=>"formulaire rails",
+    40:     cc=>"unAutre@email.com",
+    41:     body=>"un message...",
+    42:     encoding=>"javascript"
+app/views/pages/home.html.slim:39:in `_app_views_pages_home_html_slim__574289639429173485_70229018686160'
+  
+app/views/pages/home.html.slim:39:in `_app_views_pages_home_html_slim__574289639429173485_70229018322940'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.8ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (217.4ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (337.4ms)
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:38:57 +0100
+Processing by PagesController#home as HTML
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:38:57 +0100
+  Rendering pages/home.html.slim within layouts/application
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.slim within layouts/application (296.4ms)
+  Rendering pages/home.html.slim within layouts/application
+Completed 401 Unauthorized in 310ms (ActiveRecord: 0.0ms)
+
+
+  
+  Rendered pages/home.html.slim within layouts/application (260.1ms)
+ActionView::Template::Error (undefined local variable or method `subject' for #<#<Class:0x007fbef09213d0>:0x007fbef4cc5668>):
+Completed 401 Unauthorized in 469ms (ActiveRecord: 0.0ms)
+
+
+    36:     | En savoir +
+    37: 
+    38:   = mail_to "moi@domaine.dvp", "Contact par mail",
+    39:     subject=>"formulaire rails",
+    40:     cc=>"unAutre@email.com",
+    41:     body=>"un message...",
+    42:     encoding=>"javascript"
+  
+  
+ActionView::Template::Error (undefined local variable or method `subject' for #<#<Class:0x007fbef09213d0>:0x007fbeead854b8>):
+app/views/pages/home.html.slim:39:in `_app_views_pages_home_html_slim__574289639429173485_70229063774200'
+    36:     | En savoir +
+    37: 
+    38:   = mail_to "moi@domaine.dvp", "Contact par mail",
+    39:     subject=>"formulaire rails",
+    40:     cc=>"unAutre@email.com",
+    41:     body=>"un message...",
+    42:     encoding=>"javascript"
+  
+app/views/pages/home.html.slim:39:in `_app_views_pages_home_html_slim__574289639429173485_70228980283740'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (191.2ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (371.0ms)
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:39:45 +0100
+Processing by PagesController#home as HTML
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:39:45 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (270.5ms)
+  Rendering pages/home.html.slim within layouts/application
+Completed 401 Unauthorized in 290ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `subject' for #<#<Class:0x007fbef09213d0>:0x007fbef0b9eae0>):
+    37: 
+    38:   = mail_to "moi@domaine.dvp", "Contact par mail",
+    39:   
+    40:     subject=>"formulaire rails",
+    41:     cc=>"unAutre@email.com",
+    42:     body=>"un message...",
+    43:     encoding=>"javascript"
+  
+  Rendered pages/home.html.slim within layouts/application (271.6ms)
+app/views/pages/home.html.slim:40:in `_app_views_pages_home_html_slim__574289639429173485_70229029612100'
+Completed 401 Unauthorized in 550ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `subject' for #<#<Class:0x007fbef09213d0>:0x007fbeec448dd0>):
+    37: 
+    38:   = mail_to "moi@domaine.dvp", "Contact par mail",
+    39:   
+    40:     subject=>"formulaire rails",
+    41:     cc=>"unAutre@email.com",
+    42:     body=>"un message...",
+    43:     encoding=>"javascript"
+  
+app/views/pages/home.html.slim:40:in `_app_views_pages_home_html_slim__574289639429173485_70229029612100'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (301.6ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (202.0ms)
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:40:28 +0100
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:40:28 +0100
+Processing by PagesController#home as HTML
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (458.3ms)
+  Rendered pages/home.html.slim within layouts/application (573.7ms)
+Completed 401 Unauthorized in 594ms (ActiveRecord: 0.0ms)
+
+
+Completed 401 Unauthorized in 597ms (ActiveRecord: 0.0ms)
+
+
+  
+  
+ActionView::Template::Error (undefined local variable or method `subject' for #<#<Class:0x007fbef09213d0>:0x007fbef2674c20>):
+ActionView::Template::Error (undefined local variable or method `subject' for #<#<Class:0x007fbef09213d0>:0x007fbef268cd20>):
+    36:     | En savoir +
+    37: 
+    38:   = mail_to "moi@domaine.dvp", "Contact par mail",
+    39:     subject => "formulaire rails",
+    40:     cc => "unAutre@email.com",
+    41:     body => "un message...",
+    42:     encoding => "javascript"
+    36:     | En savoir +
+    37: 
+    38:   = mail_to "moi@domaine.dvp", "Contact par mail",
+    39:     subject => "formulaire rails",
+    40:     cc => "unAutre@email.com",
+    41:     body => "un message...",
+    42:     encoding => "javascript"
+  
+  
+app/views/pages/home.html.slim:39:in `_app_views_pages_home_html_slim__574289639429173485_70229043737180'
+app/views/pages/home.html.slim:39:in `_app_views_pages_home_html_slim__574289639429173485_70229043737180'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (278.4ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (224.9ms)
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:40:42 +0100
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:40:42 +0100
+Processing by PagesController#home as HTML
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (10.9ms)
+  Rendered pages/home.html.slim within layouts/application (1.6ms)
+Completed 200 OK in 58ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 68ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/deposer" for 127.0.0.1 at 2018-01-18 21:40:49 +0100
+Processing by PagesController#deposer as HTML
+  Rendering pages/deposer.html.slim within layouts/application
+  Rendered pages/deposer.html.slim within layouts/application (6.0ms)
+Completed 200 OK in 41ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-01-18 21:40:51 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (5.5ms)
+Completed 200 OK in 36ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:40:54 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (11.9ms)
+Completed 200 OK in 57ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/deposer" for 127.0.0.1 at 2018-01-18 21:40:56 +0100
+Processing by PagesController#deposer as HTML
+  Rendering pages/deposer.html.slim within layouts/application
+  Rendered pages/deposer.html.slim within layouts/application (7.3ms)
+Completed 200 OK in 48ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:41:04 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (11.9ms)
+Completed 200 OK in 58ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:43:04 +0100
+Processing by PagesController#home as HTML
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:43:04 +0100
+  Rendering pages/home.html.slim within layouts/application
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.slim within layouts/application (11.3ms)
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (11.9ms)
+Completed 200 OK in 84ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 64ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:43:22 +0100
+Processing by PagesController#home as HTML
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:43:22 +0100
+  Rendering pages/home.html.slim within layouts/application
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.slim within layouts/application (9.0ms)
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (2.2ms)
+Completed 200 OK in 81ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 60ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:44:45 +0100
+Processing by PagesController#home as HTML
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:44:45 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (31.7ms)
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (2.7ms)
+Completed 200 OK in 84ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 79ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:44:54 +0100
+Processing by PagesController#home as HTML
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:44:54 +0100
+  Rendering pages/home.html.slim within layouts/application
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.slim within layouts/application (10.3ms)
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (9.7ms)
+Completed 200 OK in 73ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 58ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-01-18 21:45:43 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (4.9ms)
+Completed 200 OK in 39ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:45:45 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (12.4ms)
+Completed 200 OK in 60ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/deposer" for 127.0.0.1 at 2018-01-18 21:45:46 +0100
+Processing by PagesController#deposer as HTML
+  Rendering pages/deposer.html.slim within layouts/application
+  Rendered pages/deposer.html.slim within layouts/application (7.0ms)
+Completed 200 OK in 42ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:45:48 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (14.6ms)
+Completed 200 OK in 58ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-01-18 21:45:49 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (7.5ms)
+Completed 200 OK in 47ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:45:51 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (13.1ms)
+Completed 200 OK in 48ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:46:41 +0100
+Processing by PagesController#home as HTML
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:46:41 +0100
+  Rendering pages/home.html.slim within layouts/application
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.slim within layouts/application (7.9ms)
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (1.6ms)
+Completed 200 OK in 75ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 62ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:46:57 +0100
+Processing by PagesController#home as HTML
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:46:57 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (12.3ms)
+  Rendered pages/home.html.slim within layouts/application (2.4ms)
+Completed 200 OK in 75ms (Views: 69.8ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 73ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:47:19 +0100
+Processing by PagesController#home as HTML
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:47:19 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (11.2ms)
+  Rendered pages/home.html.slim within layouts/application (8.5ms)
+Completed 200 OK in 76ms (Views: 72.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 64ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:48:24 +0100
+Processing by PagesController#home as HTML
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:48:24 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (10.2ms)
+  Rendered pages/home.html.slim within layouts/application (11.6ms)
+Completed 200 OK in 72ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 66ms (Views: 63.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/deposer" for 127.0.0.1 at 2018-01-18 21:48:29 +0100
+Processing by PagesController#deposer as HTML
+  Rendering pages/deposer.html.slim within layouts/application
+  Rendered pages/deposer.html.slim within layouts/application (6.8ms)
+Completed 200 OK in 38ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:48:38 +0100
+Processing by PagesController#home as HTML
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:48:38 +0100
+  Rendering pages/home.html.slim within layouts/application
+Processing by PagesController#home as HTML
+Started GET "/deposer" for 127.0.0.1 at 2018-01-18 21:48:38 +0100
+  Rendered pages/home.html.slim within layouts/application (9.1ms)
+Processing by PagesController#deposer as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (16.4ms)
+  Rendering pages/deposer.html.slim within layouts/application
+  Rendered pages/deposer.html.slim within layouts/application (8.8ms)
+Completed 200 OK in 93ms (Views: 89.8ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 89ms (Views: 86.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 78ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:48:39 +0100
+Processing by PagesController#home as HTML
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:48:39 +0100
+Started GET "/deposer" for 127.0.0.1 at 2018-01-18 21:48:39 +0100
+  Rendering pages/home.html.slim within layouts/application
+Processing by PagesController#home as HTML
+Processing by PagesController#deposer as HTML
+  Rendered pages/home.html.slim within layouts/application (11.1ms)
+  Rendering pages/home.html.slim within layouts/application
+  Rendering pages/deposer.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (2.1ms)
+  Rendered pages/deposer.html.slim within layouts/application (15.1ms)
+Completed 200 OK in 107ms (Views: 103.0ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 85ms (Views: 81.9ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 82ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-18 21:48:41 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (13.0ms)
+Completed 200 OK in 40ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+

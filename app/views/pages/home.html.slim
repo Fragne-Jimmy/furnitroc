@@ -1,0 +1,56 @@
+.icon
+  = link_to root_url do
+    = image_tag "icon.jpg", class: "icon_img"
+
+.connexion
+  = submit_tag 'Connexion'
+  = submit_tag 'Inscription'
+
+.titre
+  h1
+    | Furnitroc
+  h5
+    | Give your office furniture a new life !
+.text
+  p
+    | Votre entreprise change de mobilier ? Nouvelle décoration pour votre bureau ?
+  p
+    | Pensez à Furnitroc !
+  p
+    | Parce qu'une entreprise peut compter sur son équipe mais aussi sur un mobilier fidèle au poste jours après jours...
+  p
+    | Notre équipe vous mets en relation avec d'autres entreprises, collectivités ou associations pour que vos meubles soient toujours utiles.
+.image
+  .lien
+    = link_to "Déposer", deposer_path, class: 'style_lien'
+    = link_to "Retirer", retirer_path, class: 'style_lien'
+
+.white_space
+  .who
+    h3
+      | Qui somme nous ?
+    button.btn.btn-default.btn-know-more(
+      data-target = "#know-more"
+      data-toggle = "collapse"
+    )
+      | En savoir +
+
+    = mail_to "moi@domaine.dvp", "Contact par mail",
+      :subject => "formulaire rails",
+      :cc => "unAutre@email.com",
+      :body => "un message...",
+      :encoding => "javascript"
+div
+  h3
+    | Nous contacter
+  .social-btns
+    a.btn.facebook href="#"
+      i.fa.fa-facebook
+    a.btn.twitter href="#"
+      i.fa.fa-twitter
+    a.btn.google href="#"
+      i.fa.fa-google
+    a.btn.dribbble href="#"
+      i.fa.fa-dribbble
+    a.btn.skype href="#"
+      i.fa.fa-skype
