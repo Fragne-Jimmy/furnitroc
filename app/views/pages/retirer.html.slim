@@ -5,9 +5,13 @@ h1
   | Recherche
 p
   | Trouver un meuble pour votre entreprise
-p
-  | Besoin d'un véhicule pour allez récupérer vos meubles ?
-p
-  | Louez un véhicule chez l'un de nos partenaires...
-p
-  | Voir les offres
+
+= form_tag("/recherche", :method => "get") do
+  = search_field_tag :recherche, params[:recherche]
+  = submit_tag "Recherche", :name => nil, :id => "submit"
+
+.rentacar
+  p
+    | Besoin d'un véhicule pour allez récupérer vos meubles ?
+  p
+    | Louez un véhicule chez l'un de nos partenaires...

@@ -6,28 +6,31 @@ h1
   | Proposez
 h5
   | Déposez un ou plusieurs meubles au troc !
-p
-  | Nom #{text_field :p , :nom, :class=>'grise', :size=>'20'}
-p
-  | Type #{password_field :p , :nom , :class=>'grise', :size=>'20'}
-p
-  | Description
 
-  textarea#post_body(
-    cols = "20"
-    name = "post[body]"
-    rows = "4"
-  )
+= form_tag("/recherche", :method => "get") do
 
-= hidden_field :p , :nom
+  p
+    | Nom #{text_field :p , :nom, :class=>'grise', :size=>'20'}
+  p
+    | Type #{password_field :p , :nom , :class=>'grise', :size=>'20'}
+  p
+    | Description
 
-= file_field_tag :mon_fichier
+    textarea#post_body(
+      cols = "20"
+      name = "post[body]"
+      rows = "4"
+    )
 
-p
-  | Troc
-  =< check_box :p , :nom,:valeur_on=>1, :valeur_off=>0
-p
-  | Don
-  =< check_box :p , :nom,:valeur_on=>1, :valeur_off=>0
+  = hidden_field :p , :nom
 
-= submit_tag 'Envoyer'
+  = file_field_tag :mon_fichier
+
+  p
+    | Troc
+    =< check_box :p , :nom,:valeur_on=>1, :valeur_off=>0
+  p
+    | Don
+    =< check_box :p , :nom,:valeur_on=>1, :valeur_off=>0
+
+  = submit_tag "Envoyer", :name => nil, :id => "submit"
