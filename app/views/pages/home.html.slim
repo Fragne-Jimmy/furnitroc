@@ -40,12 +40,6 @@
     data-toggle = "collapse"
   )
     | En savoir +
-  br
-  = mail_to "moi@domaine.dvp", "Contact par mail",
-    :subject => "formulaire rails",
-    :cc => "unAutre@email.com",
-    :body => "un message...",
-    :encoding => "javascript"
 
 br
 br
@@ -94,8 +88,8 @@ br
   p
     | Le valider une fois la mission accomplie
 
-.contact
-    = link_to "Contact", contact_path, class: 'style_lien'
+br
+br
 
 .socials
   a.icon-button.twitter href="https://twitter.com/minimalmonkey" target= '_blank'
@@ -107,3 +101,6 @@ br
   a.icon-button.instagram href="https://instagram.com" target= '_blank'
     = image_tag "instagram.jpg", class: "icon_socials"
     span
+
+.contact
+  = link_to "Contact", contact_path, class: 'lien_contact'
