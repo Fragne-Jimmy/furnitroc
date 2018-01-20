@@ -12,25 +12,19 @@ h5
   p
     | Nom #{text_field :p , :nom, :class=>'grise', :size=>'20'}
   p
-    | Type #{password_field :p , :nom , :class=>'grise', :size=>'20'}
+    | Type #{text_field :p , :nom, :class=>'grise', :size=>'20'}
   p
     | Description
-
-    textarea#post_body(
-      cols = "20"
-      name = "post[body]"
-      rows = "4"
-    )
+    = text_area_tag(:message, "", size: "24x6", placeholder: "Message")
 
   = hidden_field :p , :nom
 
   = file_field_tag :mon_fichier
 
-  p
-    | Troc
-    =< check_box :p , :nom,:valeur_on=>1, :valeur_off=>0
-  p
-    | Don
-    =< check_box :p , :nom,:valeur_on=>1, :valeur_off=>0
-
-  = submit_tag "Envoyer", :name => nil, :id => "submit"
+= check_box_tag(:troc)
+=< label_tag(:troc, "Troc")
+br
+= check_box_tag(:don)
+=< label_tag(:don, "Don")
+br
+= submit_tag "Envoyer", :name => nil, :id => "submit"
