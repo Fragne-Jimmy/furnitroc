@@ -1,0 +1,8 @@
+h1
+  | Inscription
+= link_to root_url do
+  | Retourner à l'accueil
+= form_tag "/users/login", method: :post do
+  input type="text" name="name"
+  input type="password" name="password"
+  input type="submit" value="Se connecter"

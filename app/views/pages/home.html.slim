@@ -2,11 +2,14 @@
   = link_to root_url do
     = image_tag "icon.jpg", class: "icon_img"
 
-.connexion
-  a href="/users/login"
-    | S'identifier
+.users
+  .connexion
+    a href="/users/login"
+      | S'identifier
 
-  = submit_tag 'Inscription'
+  .inscription
+    a href="/users/signin"
+      | S'inscrire
 
 .titre
   h1
