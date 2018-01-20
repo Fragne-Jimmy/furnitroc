@@ -1,8 +1,19 @@
 h1
   | Connexion
-= link_to root_url do
-  | Retourner à l'accueil
+
 = form_tag "/users/login", method: :post do
-  input type="text" name="name"
-  input type="password" name="password"
-  input type="submit" value="Se connecter"
+
+  => label_tag(:name_field, "Identifiant")
+  = text_field(:p , :name_field, :class=>'grise', :size=>'20')
+  br
+  br
+  => label_tag(:password_field_tag, "Mot de passe")
+  = password_field_tag(:password)
+  br
+  br
+  = submit_tag "Connexion", :name => nil, :id => "submit"
+
+
+.back
+  = link_to root_url do
+    | Retourner à l'accueil
