@@ -5,6 +5,9 @@ class UsersController < ApplicationController
   def login
   end
 
+  def signin
+  end
+
   def check
     @current_user = User.where(name: params[:name], password: params[:password]).first
     if @current_user

@@ -1,7 +1,7 @@
 h1
   | Connexion
 
-= form_tag "/users/home", method: :post do
+= form_tag "home", method: :post do
 
   => label_tag(:name_field, "Identifiant")
   = text_field(:p , :name_field, :class=>'grise', :size=>'20')
