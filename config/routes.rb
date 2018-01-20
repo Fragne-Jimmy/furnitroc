@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   root 'pages#home'
 
   get 'users/home' => 'users#home'
+  post 'users/home' => 'users#home'
   get 'users/login' => 'users#login'
   post 'users/login' => 'users#check'
   get 'users/signin' => 'users#signin'
