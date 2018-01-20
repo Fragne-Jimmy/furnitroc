@@ -9,22 +9,27 @@ h5
 
 = form_tag("/recherche", :method => "get") do
 
-  p
-    | Nom #{text_field :p , :nom, :class=>'grise', :size=>'20'}
-  p
-    | Type #{text_field :p , :nom, :class=>'grise', :size=>'20'}
-  p
-    | Description
-    = text_area_tag(:message, "", size: "24x6", placeholder: "Message")
-
-  = hidden_field :p , :nom
-
+  => label_tag(:product_field, "Produits")
+  = text_field(:p , :product_field, :class=>'grise', :size=>'20')
+  br
+  br
+  => label_tag(:type_field, "Type")
+  = text_field(:p , :type_field, :class=>'grise', :size=>'20')
+  br
+  br
+  => label_tag(:text_area_tag, "Description")
+  = text_area_tag(:message, "", size: "24x6", placeholder: "Message")
+  br
+  br
+  => label_tag(:file_field_tag, "Sélectionner une photo")
   = file_field_tag :mon_fichier
-
-= check_box_tag(:troc)
-=< label_tag(:troc, "Troc")
-br
-= check_box_tag(:don)
-=< label_tag(:don, "Don")
-br
+  br
+  br
+  = check_box_tag(:troc)
+  =< label_tag(:troc, "Troc")
+  br
+  = check_box_tag(:don)
+  =< label_tag(:don, "Don")
+  br
+  br
 = submit_tag "Envoyer", :name => nil, :id => "submit"
