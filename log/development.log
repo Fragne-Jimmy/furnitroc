@@ -18669,3 +18669,447 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 105ms (Views: 97.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-01-21 11:10:30 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (833.2ms)
+Completed 200 OK in 1618ms (Views: 896.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-01-21 11:10:46 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (10.6ms)
+Completed 200 OK in 61ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-01-21 11:21:37 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (26.0ms)
+Completed 401 Unauthorized in 40ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Unknown line indicator
+  /Users/jimmy/Desktop/furnitroc/app/views/pages/retirer.html.slim, Line 31, Column 2
+    * jQVMap Version 1.0
+    ^
+):
+    28: 
+    29: script
+    30:   /*!
+    31:   * jQVMap Version 1.0
+    32:   *
+    33:   * http://jqvmap.com
+    34:   *
+  
+app/views/pages/retirer.html.slim:31
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (147.2ms)
+Started GET "/retirer" for 127.0.0.1 at 2018-01-21 11:22:24 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (4.9ms)
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Unknown line indicator
+  /Users/jimmy/Desktop/furnitroc/app/views/pages/retirer.html.slim, Line 41, Column 2
+    (function ($){
+    ^
+):
+    38:   //
+    39:   // Fork Me @ https://github.com/manifestinteractive/jqvmap
+    40:   //
+    41:   (function ($){
+    42: 
+    43:   var apiParams = {
+    44:     colors: 1,
+  
+app/views/pages/retirer.html.slim:41
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (131.6ms)
+Started GET "/retirer" for 127.0.0.1 at 2018-01-21 11:22:43 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (5.2ms)
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Expected closing delimiter }
+  /Users/jimmy/Desktop/furnitroc/app/views/pages/retirer.html.slim, Line 43, Column 19
+    var apiParams = {
+                     ^
+):
+    40:   //
+    41:   function ($){
+    42: 
+    43:   var apiParams = {
+    44:     colors: 1,
+    45:     values: 1,
+    46:     backgroundColor: 1,
+  
+app/views/pages/retirer.html.slim:43
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.9ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (145.5ms)
+Started GET "/retirer" for 127.0.0.1 at 2018-01-21 11:23:22 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (6.4ms)
+Completed 401 Unauthorized in 23ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Expected closing delimiter }
+  /Users/jimmy/Desktop/furnitroc/app/views/pages/retirer.html.slim, Line 57, Column 19
+    var apiEvents = {
+                     ^
+):
+    54:       selectedRegion: 1
+    55:     };
+    56: 
+    57:   var apiEvents = {
+    58:     onLabelShow: 'labelShow',
+    59:     onRegionOver: 'regionMouseOver',
+    60:     onRegionOut: 'regionMouseOut',
+  
+app/views/pages/retirer.html.slim:57
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (135.6ms)
+Started GET "/retirer" for 127.0.0.1 at 2018-01-21 11:23:49 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (33.8ms)
+Completed 401 Unauthorized in 556ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "... rgba(0,0,0,.3)": expected expression (e.g. 1px, bold), was ";"):
+    3:   <head>
+    4:     <title>Furnitroc</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    8:     <meta charset="utf-8">
+    9:     <title>Furnitroc</title>
+  
+app/assets/stylesheets/pages.sass:139
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___3340113486642558624_70331134489700'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.4ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (141.0ms)
+Started GET "/retirer" for 127.0.0.1 at 2018-01-21 11:25:29 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (55.9ms)
+Completed 401 Unauthorized in 99ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "... rgba(0,0,0,.3)": expected expression (e.g. 1px, bold), was ";"):
+    3:   <head>
+    4:     <title>Furnitroc</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    8:     <meta charset="utf-8">
+    9:     <title>Furnitroc</title>
+  
+app/assets/stylesheets/pages.sass:139
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___3340113486642558624_70331186212600'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.6ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (134.0ms)
+Started GET "/retirer" for 127.0.0.1 at 2018-01-21 11:25:40 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (43.6ms)
+Completed 401 Unauthorized in 85ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "... rgba(0,0,0,.3)": expected expression (e.g. 1px, bold), was ";"):
+    3:   <head>
+    4:     <title>Furnitroc</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    8:     <meta charset="utf-8">
+    9:     <title>Furnitroc</title>
+  
+app/assets/stylesheets/pages.sass:139
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___3340113486642558624_70331178886920'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.8ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (134.4ms)
+Started GET "/retirer" for 127.0.0.1 at 2018-01-21 11:26:15 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (53.9ms)
+Completed 401 Unauthorized in 408ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "": expected selector, was "}"):
+    3:   <head>
+    4:     <title>Furnitroc</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    8:     <meta charset="utf-8">
+    9:     <title>Furnitroc</title>
+  
+app/assets/stylesheets/pages.sass:140
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___3340113486642558624_70331128912960'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (31.1ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (167.7ms)
+Started GET "/retirer" for 127.0.0.1 at 2018-01-21 11:26:29 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (53.5ms)
+Completed 200 OK in 849ms (Views: 845.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-01-21 11:29:04 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (54.2ms)
+Completed 200 OK in 91ms (Views: 86.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-01-21 11:31:44 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (49.3ms)
+Completed 200 OK in 85ms (Views: 81.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-01-21 11:31:56 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (66.9ms)
+Completed 200 OK in 100ms (Views: 95.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-01-21 11:32:28 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (51.3ms)
+Completed 200 OK in 91ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-01-21 11:32:42 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (41.3ms)
+Completed 200 OK in 69ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-01-21 11:35:50 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (5.5ms)
+Completed 200 OK in 33ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-21 11:35:55 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (17.5ms)
+Completed 200 OK in 56ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/login" for 127.0.0.1 at 2018-01-21 11:36:08 +0100
+Processing by UsersController#login as HTML
+  Rendering users/login.html.slim within layouts/application
+  Rendered users/login.html.slim within layouts/application (20.9ms)
+Completed 200 OK in 70ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/home" for 127.0.0.1 at 2018-01-21 11:36:13 +0100
+Processing by UsersController#home as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kJjCyUN37wWEvcsIJ85jugWBmllDnJLSDSzx+E8AhOBhEWWbsEWJLruxVcbrr09sX2PDwOqhp0NMmlVvJ2eVPg==", "p"=>{"name_field"=>"syjtyj"}, "password"=>"[FILTERED]"}
+Can't verify CSRF token authenticity.
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (5.0.6) lib/action_controller/metal/request_forgery_protection.rb:195:in `handle_unverified_request'
+actionpack (5.0.6) lib/action_controller/metal/request_forgery_protection.rb:223:in `handle_unverified_request'
+devise (4.4.0) lib/devise/controllers/helpers.rb:255:in `handle_unverified_request'
+actionpack (5.0.6) lib/action_controller/metal/request_forgery_protection.rb:218:in `verify_authenticity_token'
+activesupport (5.0.6) lib/active_support/callbacks.rb:382:in `block in make_lambda'
+activesupport (5.0.6) lib/active_support/callbacks.rb:169:in `block (2 levels) in halting'
+actionpack (5.0.6) lib/abstract_controller/callbacks.rb:12:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.0.6) lib/active_support/callbacks.rb:170:in `block in halting'
+activesupport (5.0.6) lib/active_support/callbacks.rb:454:in `block in call'
+activesupport (5.0.6) lib/active_support/callbacks.rb:454:in `each'
+activesupport (5.0.6) lib/active_support/callbacks.rb:454:in `call'
+activesupport (5.0.6) lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+activesupport (5.0.6) lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+route_translator (5.5.3) lib/route_translator/extensions/action_controller.rb:23:in `set_locale_from_url'
+activesupport (5.0.6) lib/active_support/callbacks.rb:382:in `block in make_lambda'
+activesupport (5.0.6) lib/active_support/callbacks.rb:285:in `block in halting'
+activesupport (5.0.6) lib/active_support/callbacks.rb:447:in `block in around'
+activesupport (5.0.6) lib/active_support/callbacks.rb:455:in `call'
+activesupport (5.0.6) lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+activesupport (5.0.6) lib/active_support/callbacks.rb:750:in `_run_process_action_callbacks'
+activesupport (5.0.6) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.0.6) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.0.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.0.6) lib/active_support/notifications.rb:164:in `block in instrument'
+activesupport (5.0.6) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.0.6) lib/active_support/notifications.rb:164:in `instrument'
+actionpack (5.0.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.0.6) lib/action_controller/metal/params_wrapper.rb:248:in `process_action'
+activerecord (5.0.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+actionpack (5.0.6) lib/abstract_controller/base.rb:126:in `process'
+actionview (5.0.6) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.6) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.6) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.6) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.6) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.6) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.6) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.6) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.6) lib/action_dispatch/routing/route_set.rb:727:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.6) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.6) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.6) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.6) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.6) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+raygun4ruby (2.6.0) lib/raygun/middleware/rails_insert_affected_user.rb:11:in `call'
+raygun4ruby (2.6.0) lib/raygun/middleware/rack_exception_interceptor.rb:10:in `call'
+raygun4ruby (2.6.0) lib/raygun/middleware/breadcrumbs_store_initializer.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (136.8ms)
+Started GET "/users/home" for 127.0.0.1 at 2018-01-21 11:36:17 +0100
+Processing by UsersController#home as HTML
+  Rendering users/home.html.slim within layouts/application
+  Rendered users/home.html.slim within layouts/application (5.3ms)
+Completed 200 OK in 41ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2018-01-21 11:36:27 +0100
+Processing by UsersController#home as HTML
+  Rendering users/home.html.slim within layouts/application
+  Rendered users/home.html.slim within layouts/application (5.7ms)
+Completed 200 OK in 50ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2018-01-21 11:36:28 +0100
+Processing by UsersController#home as HTML
+  Rendering users/home.html.slim within layouts/application
+  Rendered users/home.html.slim within layouts/application (4.5ms)
+Completed 200 OK in 37ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2018-01-21 11:36:29 +0100
+Processing by UsersController#home as HTML
+  Rendering users/home.html.slim within layouts/application
+  Rendered users/home.html.slim within layouts/application (5.0ms)
+Completed 200 OK in 36ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2018-01-21 11:36:30 +0100
+Processing by UsersController#home as HTML
+  Rendering users/home.html.slim within layouts/application
+  Rendered users/home.html.slim within layouts/application (6.1ms)
+Completed 200 OK in 35ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
