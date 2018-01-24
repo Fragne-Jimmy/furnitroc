@@ -12,10 +12,23 @@ h5
   => label_tag(:product_field, "Produits")
   = text_field(:p , :product_field, :class=>'grise', :size=>'20')
   br
-  br
-  => label_tag(:type_field, "Type")
-  = text_field(:p , :type_field, :class=>'grise', :size=>'20')
-  br
+  p
+    | Type
+    select(
+      data-is-select = ""
+    )
+      option (
+        value = "test"
+      )
+        | momo
+      option (
+        value = "test1"
+      )
+        | est
+      option (
+        value = "test1"
+      )
+        | gentil
   br
   => label_tag(:text_area_tag, "Description")
   = text_area_tag(:message, "", size: "24x6", placeholder: "Message")
