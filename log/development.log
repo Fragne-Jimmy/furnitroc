@@ -19922,3 +19922,794 @@ Processing by PagesController#deposer as HTML
 Completed 200 OK in 62ms (Views: 57.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-01-24 23:02:51 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (44.0ms)
+Completed 200 OK in 84ms (Views: 79.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/login" for 127.0.0.1 at 2018-01-24 23:02:54 +0100
+Processing by UsersController#login as HTML
+  Rendering users/login.html.slim within layouts/application
+  Rendered users/login.html.slim within layouts/application (9.1ms)
+Completed 200 OK in 58ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-24 23:03:02 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (21.0ms)
+Completed 200 OK in 66ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/signin" for 127.0.0.1 at 2018-01-24 23:03:04 +0100
+Processing by UsersController#signin as HTML
+  Rendering users/signin.html.slim within layouts/application
+  Rendered users/signin.html.slim within layouts/application (13.3ms)
+Completed 200 OK in 48ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-24 23:03:14 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (18.7ms)
+Completed 200 OK in 61ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/login" for 127.0.0.1 at 2018-01-24 23:03:16 +0100
+Processing by UsersController#login as HTML
+  Rendering users/login.html.slim within layouts/application
+  Rendered users/login.html.slim within layouts/application (7.2ms)
+Completed 200 OK in 50ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/home" for 127.0.0.1 at 2018-01-24 23:03:20 +0100
+Processing by UsersController#home as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W6zPKbOt29tfFxjYJMOm5ilvOmRozKKPZeXcGXzbvW+BvFmuC2LPpeZqOZA8Sh3S9BsSx93Vf8CDCMnPeBeORA==", "p"=>{"name_field"=>"ehrths"}, "password"=>"[FILTERED]"}
+Can't verify CSRF token authenticity.
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (5.0.6) lib/action_controller/metal/request_forgery_protection.rb:195:in `handle_unverified_request'
+actionpack (5.0.6) lib/action_controller/metal/request_forgery_protection.rb:223:in `handle_unverified_request'
+devise (4.4.0) lib/devise/controllers/helpers.rb:255:in `handle_unverified_request'
+actionpack (5.0.6) lib/action_controller/metal/request_forgery_protection.rb:218:in `verify_authenticity_token'
+activesupport (5.0.6) lib/active_support/callbacks.rb:382:in `block in make_lambda'
+activesupport (5.0.6) lib/active_support/callbacks.rb:169:in `block (2 levels) in halting'
+actionpack (5.0.6) lib/abstract_controller/callbacks.rb:12:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.0.6) lib/active_support/callbacks.rb:170:in `block in halting'
+activesupport (5.0.6) lib/active_support/callbacks.rb:454:in `block in call'
+activesupport (5.0.6) lib/active_support/callbacks.rb:454:in `each'
+activesupport (5.0.6) lib/active_support/callbacks.rb:454:in `call'
+activesupport (5.0.6) lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+activesupport (5.0.6) lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+route_translator (5.5.3) lib/route_translator/extensions/action_controller.rb:23:in `set_locale_from_url'
+activesupport (5.0.6) lib/active_support/callbacks.rb:382:in `block in make_lambda'
+activesupport (5.0.6) lib/active_support/callbacks.rb:285:in `block in halting'
+activesupport (5.0.6) lib/active_support/callbacks.rb:447:in `block in around'
+activesupport (5.0.6) lib/active_support/callbacks.rb:455:in `call'
+activesupport (5.0.6) lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+activesupport (5.0.6) lib/active_support/callbacks.rb:750:in `_run_process_action_callbacks'
+activesupport (5.0.6) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.0.6) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.0.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.0.6) lib/active_support/notifications.rb:164:in `block in instrument'
+activesupport (5.0.6) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.0.6) lib/active_support/notifications.rb:164:in `instrument'
+actionpack (5.0.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.0.6) lib/action_controller/metal/params_wrapper.rb:248:in `process_action'
+activerecord (5.0.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+actionpack (5.0.6) lib/abstract_controller/base.rb:126:in `process'
+actionview (5.0.6) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.6) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.6) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.6) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.6) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.6) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.6) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.6) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.6) lib/action_dispatch/routing/route_set.rb:727:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.6) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.6) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.6) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.6) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.6) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+raygun4ruby (2.6.0) lib/raygun/middleware/rails_insert_affected_user.rb:11:in `call'
+raygun4ruby (2.6.0) lib/raygun/middleware/rack_exception_interceptor.rb:10:in `call'
+raygun4ruby (2.6.0) lib/raygun/middleware/breadcrumbs_store_initializer.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (146.2ms)
+Started GET "/users/home" for 127.0.0.1 at 2018-01-24 23:03:24 +0100
+Processing by UsersController#home as HTML
+  Rendering users/home.html.slim within layouts/application
+  Rendered users/home.html.slim within layouts/application (9.4ms)
+Completed 200 OK in 46ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-24 23:03:41 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (29.5ms)
+Completed 200 OK in 65ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-24 23:05:10 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (335.7ms)
+Completed 401 Unauthorized in 349ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `result' for #<#<Class:0x007f92dc031620>:0x007f92df1ca010>):
+    105: .contact
+    106:   = link_to "Contact", contact_path, class: 'lien_contact'
+    107: 
+    108: = javascript_tag "alert('hello welcome')" unless result
+  
+app/views/pages/home.html.slim:108:in `_app_views_pages_home_html_slim__620964472771537401_70134392575380'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (134.4ms)
+Started GET "/" for 127.0.0.1 at 2018-01-24 23:05:20 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (13.0ms)
+Completed 200 OK in 44ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-01-24 23:06:05 +0100
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.slim within layouts/application
+  Rendered pages/contact.html.slim within layouts/application (4.3ms)
+Completed 200 OK in 36ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-24 23:06:14 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (17.7ms)
+Completed 200 OK in 54ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/style_guides/v2/subrequest_table" for 127.0.0.1 at 2018-01-26 14:08:55 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/pages/style_guides/v2/subrequest_table"):
+  
+  
+actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+ActionController::RoutingError (No route matches [GET] "/assets/webfonts/fa-solid-900.woff2"):
+  
+actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.6) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.6) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.6) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.6) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered collection of /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb [13 times] (10.8ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (61.0ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.8ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (447.5ms)
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:10:00 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (255.1ms)
+Completed 200 OK in 1007ms (Views: 323.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:20:49 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (6.1ms)
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Malformed indentation
+  /Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim, Line 113, Column 4
+    p.bg-infoLorem
+    ^
+):
+    110: 
+    111:       button.btn-primary">Lorem Ipsum...
+    112: 
+    113:     p.bg-infoLorem
+    114:       | ipsum dolor sit amet, consectetur adipisicing elit. Quae hic voluptate eum, sit possimus nostrum, ducimus beatae? Voluptatibus, harum. Modi error consectetur quasi alias quas obcaecati dolorem quam! Quisquam, impedit!
+  
+app/views/pages/home.html.slim:113
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (151.0ms)
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:21:23 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (17.2ms)
+Completed 200 OK in 57ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:21:55 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (18.1ms)
+Completed 200 OK in 50ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:23:20 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (26.8ms)
+Completed 200 OK in 916ms (Views: 911.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:24:37 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (18.1ms)
+Completed 200 OK in 49ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:25:59 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (20.4ms)
+Completed 401 Unauthorized in 35ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Unknown line indicator
+  /Users/jimmy/Desktop/furnitroc/app/views/pages/home.html.slim, Line 116, Column 2
+    $('.bg-info').toggle(0, 0);
+    ^
+):
+    113:       | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic voluptate eum, sit possimus nostrum, ducimus beatae? Voluptatibus, harum. Modi error consectetur quasi alias quas obcaecati dolorem quam! Quisquam, impedit!
+    114: 
+    115: script
+    116:   $('.bg-info').toggle(0, 0);
+    117:   $('button').click(function(){
+    118:     $('.bg-info').toggle('hide');
+    119:   });
+  
+app/views/pages/home.html.slim:116
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.6ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (146.5ms)
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:28:24 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (23.9ms)
+Completed 401 Unauthorized in 36ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial views/partials/_en_savoir_+ with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :slim, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jimmy/Desktop/furnitroc/app/views"
+  * "/Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.4.0/app/views"
+):
+    112:     p.bg-info
+    113:       | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic voluptate eum, sit possimus nostrum, ducimus beatae? Voluptatibus, harum. Modi error consectetur quasi alias quas obcaecati dolorem quam! Quisquam, impedit!
+    114: 
+    115:       = render partial: "views/partials/en_savoir_+"
+  
+app/views/pages/home.html.slim:115:in `_app_views_pages_home_html_slim__434791793826887488_70192213176960'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (136.3ms)
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:28:47 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (37.7ms)
+Completed 401 Unauthorized in 50ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial views/partials/_en_savoir_+.js with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :slim, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jimmy/Desktop/furnitroc/app/views"
+  * "/Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.4.0/app/views"
+):
+    112:     p.bg-info
+    113:       | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic voluptate eum, sit possimus nostrum, ducimus beatae? Voluptatibus, harum. Modi error consectetur quasi alias quas obcaecati dolorem quam! Quisquam, impedit!
+    114: 
+    115:       = render partial: "views/partials/en_savoir_+.js"
+  
+app/views/pages/home.html.slim:115:in `_app_views_pages_home_html_slim__434791793826887488_70192185929460'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (150.5ms)
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:28:56 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (23.2ms)
+Completed 401 Unauthorized in 35ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial views/partials/_en_savoir_+.js.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :slim, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jimmy/Desktop/furnitroc/app/views"
+  * "/Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.4.0/app/views"
+):
+    112:     p.bg-info
+    113:       | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic voluptate eum, sit possimus nostrum, ducimus beatae? Voluptatibus, harum. Modi error consectetur quasi alias quas obcaecati dolorem quam! Quisquam, impedit!
+    114: 
+    115:       = render partial: "views/partials/en_savoir_+.js.erb"
+  
+app/views/pages/home.html.slim:115:in `_app_views_pages_home_html_slim__434791793826887488_70192151075200'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (141.2ms)
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:29:34 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (25.2ms)
+Completed 401 Unauthorized in 37ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial views/partials/_en_savoir_+_js.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :slim, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jimmy/Desktop/furnitroc/app/views"
+  * "/Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.4.0/app/views"
+):
+    112:     p.bg-info
+    113:       | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic voluptate eum, sit possimus nostrum, ducimus beatae? Voluptatibus, harum. Modi error consectetur quasi alias quas obcaecati dolorem quam! Quisquam, impedit!
+    114: 
+    115:       = render partial: "views/partials/en_savoir_+_js.html.erb"
+  
+app/views/pages/home.html.slim:115:in `_app_views_pages_home_html_slim__434791793826887488_70192208807580'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (148.8ms)
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:29:49 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (24.6ms)
+Completed 401 Unauthorized in 40ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial views/partials/_en_savoir_+_js.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :slim, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jimmy/Desktop/furnitroc/app/views"
+  * "/Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.4.0/app/views"
+):
+    112:     p.bg-info
+    113:       | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic voluptate eum, sit possimus nostrum, ducimus beatae? Voluptatibus, harum. Modi error consectetur quasi alias quas obcaecati dolorem quam! Quisquam, impedit!
+    114: 
+    115:   = render partial: "views/partials/en_savoir_+_js.html.erb"
+  
+app/views/pages/home.html.slim:115:in `_app_views_pages_home_html_slim__434791793826887488_70192183506460'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (140.2ms)
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:30:52 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (24.3ms)
+Completed 401 Unauthorized in 35ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial views/partials/_en_savoir_+_js with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :slim, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jimmy/Desktop/furnitroc/app/views"
+  * "/Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.4.0/app/views"
+):
+    112:     p.bg-info
+    113:       | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic voluptate eum, sit possimus nostrum, ducimus beatae? Voluptatibus, harum. Modi error consectetur quasi alias quas obcaecati dolorem quam! Quisquam, impedit!
+    114: 
+    115:   = render partial: "views/partials/en_savoir_+_js"
+  
+app/views/pages/home.html.slim:115:in `_app_views_pages_home_html_slim__434791793826887488_70192214694620'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (138.8ms)
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:34:21 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (345.1ms)
+Completed 401 Unauthorized in 358ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `toggle' for #<#<Class:0x007fadc4768008>:0x007fadc2e362d8>):
+    113:       | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic voluptate eum, sit possimus nostrum, ducimus beatae? Voluptatibus, harum. Modi error consectetur quasi alias quas obcaecati dolorem quam! Quisquam, impedit!
+    114: 
+    115:   = render partial: "views/partials/en_savoir_+_js",
+    116:     locals: { toggle: toggle, click: click }
+  
+app/views/pages/home.html.slim:116:in `_app_views_pages_home_html_slim__434791793826887488_70192137923400'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (143.7ms)
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:34:35 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (59.6ms)
+Completed 401 Unauthorized in 80ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial views/partials/_en_savoir_+_js with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :slim, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jimmy/Desktop/furnitroc/app/views"
+  * "/Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.4.0/app/views"
+):
+    112:     p.bg-info
+    113:       | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic voluptate eum, sit possimus nostrum, ducimus beatae? Voluptatibus, harum. Modi error consectetur quasi alias quas obcaecati dolorem quam! Quisquam, impedit!
+    114: 
+    115:   = render partial: "views/partials/en_savoir_+_js",
+    116:     locals: { toggle: @toggle, click: @click }
+  
+app/views/pages/home.html.slim:115:in `_app_views_pages_home_html_slim__434791793826887488_70192183836960'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.0ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (139.0ms)
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:35:45 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (25.7ms)
+Completed 401 Unauthorized in 37ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial app/views/partials/_en_savoir_+_js with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :slim, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jimmy/Desktop/furnitroc/app/views"
+  * "/Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.4.0/app/views"
+):
+    112:     p.bg-info
+    113:       | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic voluptate eum, sit possimus nostrum, ducimus beatae? Voluptatibus, harum. Modi error consectetur quasi alias quas obcaecati dolorem quam! Quisquam, impedit!
+    114: 
+    115:   = render partial: "app/views/partials/en_savoir_+_js"
+  
+app/views/pages/home.html.slim:115:in `_app_views_pages_home_html_slim__434791793826887488_70192225927220'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (139.2ms)
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:36:14 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (27.4ms)
+Completed 401 Unauthorized in 40ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial app/views/partials/_en_savoir_plus_js with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :slim, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jimmy/Desktop/furnitroc/app/views"
+  * "/Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.4.0/app/views"
+):
+    112:     p.bg-info
+    113:       | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic voluptate eum, sit possimus nostrum, ducimus beatae? Voluptatibus, harum. Modi error consectetur quasi alias quas obcaecati dolorem quam! Quisquam, impedit!
+    114: 
+    115:   = render partial: "app/views/partials/en_savoir_plus_js"
+  
+app/views/pages/home.html.slim:115:in `_app_views_pages_home_html_slim__434791793826887488_70192227311360'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (134.5ms)
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:37:34 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (24.1ms)
+Completed 401 Unauthorized in 37ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial app/views/partials/_en_savoir_plus_js with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :slim, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jimmy/Desktop/furnitroc/app/views"
+  * "/Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.4.0/app/views"
+):
+    112:     p.bg-info
+    113:       | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic voluptate eum, sit possimus nostrum, ducimus beatae? Voluptatibus, harum. Modi error consectetur quasi alias quas obcaecati dolorem quam! Quisquam, impedit!
+    114: 
+    115:   = render partial: "app/views/partials/en_savoir_plus_js"
+    116: 
+    117:   javascript:
+    118:    $('.bg-info').toggle(0, 0);
+  
+app/views/pages/home.html.slim:115:in `_app_views_pages_home_html_slim__434791793826887488_70192184675460'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (142.0ms)
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:37:50 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (18.3ms)
+Completed 200 OK in 62ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-01-26 14:38:01 +0100
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.slim within layouts/application
+  Rendered pages/contact.html.slim within layouts/application (6.0ms)
+Completed 200 OK in 49ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:39:36 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (21.4ms)
+Completed 200 OK in 61ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:52:43 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (19.8ms)
+Completed 200 OK in 51ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:53:03 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (16.1ms)
+Completed 200 OK in 51ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:55:08 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (306.2ms)
+Completed 401 Unauthorized in 318ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_post_path' for #<#<Class:0x007fadc4768008>:0x007fadcb7a9088>
+Did you mean?  new_polymorphic_path):
+    35: .who
+    36:   h3
+    37:     | Qui somme nous ?
+    38:   = link_to '<button.btn-primary type="button">En savoir +</button>'.html_safe, new_post_path
+    39:     type = "button"
+    40: 
+    41:     | En savoir +
+  
+app/views/pages/home.html.slim:38:in `_app_views_pages_home_html_slim__434791793826887488_70192209939960'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (139.8ms)
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:55:22 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (38.9ms)
+Completed 200 OK in 78ms (Views: 72.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/%3Cbutton.btn-primary%20type=%22button%22%3EEn%20savoir%20+%3C/button%3E" for 127.0.0.1 at 2018-01-26 14:55:28 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/%3Cbutton.btn-primary%20type=%22button%22%3EEn%20savoir%20+%3C/button%3E"):
+  
+actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered collection of /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb [13 times] (6.5ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (206.5ms)
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:55:30 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (22.8ms)
+Completed 200 OK in 57ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:56:34 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (20.9ms)
+Completed 200 OK in 53ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-26 14:57:28 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (28.6ms)
+Completed 200 OK in 88ms (Views: 83.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-26 15:00:57 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (16.5ms)
+Completed 200 OK in 647ms (Views: 642.5ms | ActiveRecord: 0.0ms)
+
+

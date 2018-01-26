@@ -35,11 +35,19 @@
 .who
   h3
     | Qui somme nous ?
-  button.btn.btn-default.btn-know-more(
-    data-target = "#know-more"
-    data-toggle = "collapse"
-  )
-    | En savoir +
+  a
+    button.btn-primary(
+      type = "button"
+    )
+      | En savoir +
+    p.bg-info
+      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic voluptate eum, sit possimus nostrum, ducimus beatae? Voluptatibus, harum. Modi error consectetur quasi alias quas obcaecati dolorem quam! Quisquam, impedit!
+
+    javascript:
+     $('.bg-info').toggle(0, 0);
+     $('button').click(function(){
+       $('.bg-info').toggle('hide');
+     });
 
 br
 br
