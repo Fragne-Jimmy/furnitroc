@@ -1,35 +1,37 @@
-h1
-  | Inscription
+.background
 
-= form_tag "/users/login", method: :post do
+  h1
+    | Inscription
 
-  => label_tag(:name_field, "Nom")
-  = text_field(:p , :name_field, :class=>'grise', :size=>'20')
-  br
-  br
-  => label_tag(:first_name_field, "Prénom")
-  = text_field(:p , :first_name_field, :class=>'grise', :size=>'20')
-  br
-  br
-  => label_tag(:email_field, "Mail")
-  = email_field(:user, :address)
-  br
-  br
-  => label_tag(:password_field_tag, "Mot de passe")
-  = password_field_tag(:password)
-  br
-  br
-  => label_tag(:telephone_field, "Téléphone")
-  = telephone_field(:user, :phone)
-  br
-  br
-  => label_tag(:adress_field, "Adresse")
-  = text_field(:p , :adress_field, :class=>'grise', :size=>'20')
-  br
-  br
-  = submit_tag "S'inscrire", :name => nil, :id => "submit"
+  = form_tag "/users/login", method: :post do
+
+    => label_tag(:name_field, "Nom")
+    = text_field(:p , :name_field, :class=>'grise', :size=>'20')
+    br
+    br
+    => label_tag(:first_name_field, "Prénom")
+    = text_field(:p , :first_name_field, :class=>'grise', :size=>'20')
+    br
+    br
+    => label_tag(:email_field, "Mail")
+    = email_field(:user, :address)
+    br
+    br
+    => label_tag(:password_field_tag, "Mot de passe")
+    = password_field_tag(:password)
+    br
+    br
+    => label_tag(:telephone_field, "Téléphone")
+    = telephone_field(:user, :phone)
+    br
+    br
+    => label_tag(:adress_field, "Adresse")
+    = text_field(:p , :adress_field, :class=>'grise', :size=>'20')
+    br
+    br
+    = submit_tag "S'inscrire", :name => nil, :id => "submit"
 
 
-.back
-  = link_to root_url do
-    | Retourner à l'accueil
+  .back
+    = link_to root_url do
+      | Retourner à l'accueil

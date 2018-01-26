@@ -1,37 +1,39 @@
-h1
-  | Mon Compte
+.background
 
-.aside
   h1
-    | Bonjour
+    | Mon Compte
 
-  li
-    a href="#monTableau2"
-      | Mon tableau de bord
-  li
-    a href="#monTableau2"
+  .aside
+    h1
+      | Bonjour
+
+    li
+      a href="#monTableau2"
+        | Mon tableau de bord
+    li
+      a href="#monTableau2"
+        | Mon profil
+    li
+      a href="#monTableau2"
+        | Mes échanges
+    li
+      a href="#monTableau2"
+        | Mon tableau de bord
+
+
+
+
+  .container
+
+    a href="#"
+    h3
       | Mon profil
-  li
-    a href="#monTableau2"
-      | Mes échanges
-  li
-    a href="#monTableau2"
-      | Mon tableau de bord
+    p
+      | Modifier mes informations, mon mot de passe et  mes abonnements Newsletter
 
 
 
 
-.container
-
-  a href="#"
-  h3
-    | Mon profil
-  p
-    | Modifier mes informations, mon mot de passe et  mes abonnements Newsletter
-
-
-
-
-.back
-  = link_to root_url do
-    | Retourner à l'accueil
+  .back
+    = link_to root_url do
+      | Retourner à l'accueil

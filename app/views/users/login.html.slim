@@ -1,19 +1,21 @@
-h1
-  | Connexion
+.background
 
-= form_tag "home", method: :post do
+  h1
+    | Connexion
 
-  => label_tag(:name_field, "Identifiant")
-  = text_field(:p , :name_field, :class=>'grise', :size=>'20')
-  br
-  br
-  => label_tag(:password_field_tag, "Mot de passe")
-  = password_field_tag(:password)
-  br
-  br
-  = submit_tag "Connexion", :name => nil, :id => "submit"
+  = form_tag "home", method: :post do
+
+    => label_tag(:name_field, "Identifiant")
+    = text_field(:p , :name_field, :class=>'grise', :size=>'20')
+    br
+    br
+    => label_tag(:password_field_tag, "Mot de passe")
+    = password_field_tag(:password)
+    br
+    br
+    = submit_tag "Connexion", :name => nil, :id => "submit"
 
 
-.back
-  = link_to root_url do
-    | Retourner à l'accueil
+  .back
+    = link_to root_url do
+      | Retourner à l'accueil
