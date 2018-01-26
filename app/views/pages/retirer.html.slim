@@ -1,27 +1,29 @@
-.icon
-  = link_to root_url do
-    = image_tag "icon.jpg", class: "icon_img"
-h1
-  | Recherche
-p
-  | Trouver un meuble pour votre entreprise
+.background
 
-= form_tag("/recherche", :method => "get") do
-  = search_field_tag :recherche, params[:recherche]
-  = submit_tag "Recherche", :name => nil, :id => "submit"
-
-br
-br
-
-.card
-  i.far.fa-lightbulb
+  .icon
+    = link_to root_url do
+      = image_tag "icon.jpg", class: "icon_img"
+  h1
+    | Recherche
   p
-    | Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, officiis, autem, adipisci in obcaecati aliquid magni doloribus reprehenderit hic nemo accusamus distinctio consectetur accusantium? Reiciendis ratione fugit aliquam vitae delectus.
+    | Trouver un meuble pour votre entreprise
+
+  = form_tag("/recherche", :method => "get") do
+    = search_field_tag :recherche, params[:recherche]
+    = submit_tag "Recherche", :name => nil, :id => "submit"
+
+  br
+  br
+
+  .card
+    i.far.fa-lightbulb
+    p
+      | Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, officiis, autem, adipisci in obcaecati aliquid magni doloribus reprehenderit hic nemo accusamus distinctio consectetur accusantium? Reiciendis ratione fugit aliquam vitae delectus.
 
 
-// rentacar
-.rentacar
-  p
-    | Besoin d'un véhicule pour allez récupérer vos meubles ?
-  p
-    | Louez un véhicule chez l'un de nos partenaires...
+  // rentacar
+  .rentacar
+    p
+      | Besoin d'un véhicule pour allez récupérer vos meubles ?
+    p
+      | Louez un véhicule chez l'un de nos partenaires...

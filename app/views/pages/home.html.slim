@@ -1,36 +1,38 @@
-.icon
-  = link_to root_url do
-    = image_tag "icon.jpg", class: "icon_img"
+.background
 
-.users
-  .connexion
-    a href="/users/login"
-      | S'identifier
+  .icon
+    = link_to root_url do
+      = image_tag "icon.jpg", class: "icon_img"
 
-  .inscription
-    a href="/users/signin"
-      | S'inscrire
+  .users
+    .connexion
+      a href="/users/login"
+        | S'identifier
 
-.titre
-  h1
-    | Furnitroc
-  h5
-    | Give your office furniture a new life !
-.text
-  p
-    | Votre entreprise change de mobilier ? Nouvelle décoration pour votre bureau ?
-  p
-    | Pensez à Furnitroc !
-  p
-    | Parce qu'une entreprise peut compter sur son équipe mais aussi sur un mobilier fidèle au poste jours après jours...
-  p
-    | Notre équipe vous mets en relation avec d'autres entreprises, collectivités ou associations pour que vos meubles soient toujours utiles.
-.image
+    .inscription
+      a href="/users/signin"
+        | S'inscrire
+
   .lien
     = link_to "Déposer", deposer_path, class: 'style_lien'
     br
     br
     = link_to "Retirer", retirer_path, class: 'style_lien'
+
+  .titre
+    h1
+      | Furnitroc
+    h5
+      | Give your office furniture a new life !
+  .text
+    p
+      | Votre entreprise change de mobilier ? Nouvelle décoration pour votre bureau ?
+    p
+      | Pensez à Furnitroc !
+    p
+      | Parce qu'une entreprise peut compter sur son équipe mais aussi sur un mobilier fidèle au poste jours après jours...
+    p
+      | Notre équipe vous mets en relation avec d'autres entreprises, collectivités ou associations pour que vos meubles soient toujours utiles.
 
 .who
   h3
@@ -49,84 +51,86 @@
        $('.bg-info').toggle('hide');
      });
 
-br
-br
+.background2
 
-.step1
-  h4
-    | 1
-  p
-    | Simple et efficace
-  p
-    | Inscription sur le site
+  br
+  br
 
-.step2
-  h4
-    | 2
-  p
-    | Proposez du mobilier
-  p
-    | Remplir le petit formulaire
-  p
-    | N'oubliez pas de choisir entre le troc ou le don
+  .step1
+    h4
+      | 1
+    p
+      | Simple et efficace
+    p
+      | Inscription sur le site
 
-.step3
-  h4
-    | 3
-  p
-    | Liste des interessés
-  p
-    | Trouvez un partenaire
+  .step2
+    h4
+      | 2
+    p
+      | Proposez du mobilier
+    p
+      | Remplir le petit formulaire
+    p
+      | N'oubliez pas de choisir entre le troc ou le don
 
-.step4
-  h4
-    | 4
-  p
-    | Mise en contact
-  p
-    | Discutez librement
+  .step3
+    h4
+      | 3
+    p
+      | Liste des interessés
+    p
+      | Trouvez un partenaire
 
-.step5
-  h4
-    | 5
-  p
-    | Ouvrir une mission
-  p
-    | Remplir l'ordre de mission
-  p
-    | Le valider une fois la mission accomplie
+  .step4
+    h4
+      | 4
+    p
+      | Mise en contact
+    p
+      | Discutez librement
 
-footer
+  .step5
+    h4
+      | 5
+    p
+      | Ouvrir une mission
+    p
+      | Remplir l'ordre de mission
+    p
+      | Le valider une fois la mission accomplie
 
-  .contact
-    i class= "fa fa-paper-plane-o"
-    =< link_to "Contact", contact_path, class: 'lien_contact'
+  footer
 
-br
-br
+    .contact
+      i class= "fa fa-paper-plane-o"
+      =< link_to "Contact", contact_path, class: 'lien_contact'
 
-  .social-btns
-      a(
-        class = "btn facebook"
-        href  = "https://www.facebook.com"
-        target = "_blank"
-      )
-        i class="fa fa-facebook"
-      a(
-        class = "btn twitter"
-        href  = "https://twitter.com"
-        target = "_blank"
-      )
-        i class="fa fa-twitter"
-      a(
-        class = "btn google"
-        href  = "https://google.com"
-        target = "_blank"
-      )
-        i class="fa fa-google"
-      a(
-        class = "btn skype"
-        href  = "https://skype.com"
-        target = "_blank"
-      )
-        i class="fa fa-skype"
+  br
+  br
+
+    .social-btns
+        a(
+          class = "btn facebook"
+          href  = "https://www.facebook.com"
+          target = "_blank"
+        )
+          i class="fa fa-facebook"
+        a(
+          class = "btn twitter"
+          href  = "https://twitter.com"
+          target = "_blank"
+        )
+          i class="fa fa-twitter"
+        a(
+          class = "btn google"
+          href  = "https://google.com"
+          target = "_blank"
+        )
+          i class="fa fa-google"
+        a(
+          class = "btn skype"
+          href  = "https://skype.com"
+          target = "_blank"
+        )
+          i class="fa fa-skype"

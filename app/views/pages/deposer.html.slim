@@ -1,48 +1,50 @@
-.icon
-  = link_to root_url do
-    = image_tag "icon.jpg", class: "icon_img"
+.background
 
-h1
-  | Proposez
-h5
-  | Déposez un ou plusieurs meubles au troc !
+  .icon
+    = link_to root_url do
+      = image_tag "icon.jpg", class: "icon_img"
 
-= form_tag("/recherche", :method => "get") do
+  h1
+    | Proposez
+  h5
+    | Déposez un ou plusieurs meubles au troc !
 
-  => label_tag(:product_field, "Produits")
-  = text_field(:p , :product_field, :class=>'grise', :size=>'20')
-  br
-  p
-    | Type
-    select(
-      data-is-select = ""
-    )
-      option (
-        value = "test"
+  = form_tag("/recherche", :method => "get") do
+
+    => label_tag(:product_field, "Produits")
+    = text_field(:p , :product_field, :class=>'grise', :size=>'20')
+    br
+    p
+      | Type
+      select(
+        data-is-select = ""
       )
-        | table
-      option (
-        value = "test1"
-      )
-        | assise
-      option (
-        value = "test1"
-      )
-        | meubles
-  br
-  => label_tag(:text_area_tag, "Description")
-  = text_area_tag(:message, "", size: "24x6", placeholder: "Message")
-  br
-  br
-  => label_tag(:file_field_tag, "Sélectionner une photo")
-  = file_field_tag :mon_fichier
-  br
-  br
-  = check_box_tag(:troc)
-  =< label_tag(:troc, "Troc")
-  br
-  = check_box_tag(:don)
-  =< label_tag(:don, "Don")
-  br
-  br
-= submit_tag "Envoyer", :name => nil, :id => "submit"
+        option (
+          value = "test"
+        )
+          | table
+        option (
+          value = "test1"
+        )
+          | assise
+        option (
+          value = "test1"
+        )
+          | meubles
+    br
+    => label_tag(:text_area_tag, "Description")
+    = text_area_tag(:message, "", size: "24x6", placeholder: "Message")
+    br
+    br
+    => label_tag(:file_field_tag, "Sélectionner une photo")
+    = file_field_tag :mon_fichier
+    br
+    br
+    = check_box_tag(:troc)
+    =< label_tag(:troc, "Troc")
+    br
+    = check_box_tag(:don)
+    =< label_tag(:don, "Don")
+    br
+    br
+  = submit_tag "Envoyer", :name => nil, :id => "submit"
