@@ -23643,3 +23643,561 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 761ms (Views: 757.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-03-17 14:54:13 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (866.3ms)
+Completed 200 OK in 1682ms (Views: 956.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-03-17 14:54:44 +0100
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.slim within layouts/application
+  Rendered pages/contact.html.slim within layouts/application (7.3ms)
+Completed 200 OK in 50ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-17 14:55:02 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (29.0ms)
+Completed 200 OK in 79ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/deposer" for 127.0.0.1 at 2018-03-17 14:55:05 +0100
+Processing by PagesController#deposer as HTML
+  Rendering pages/deposer.html.slim within layouts/application
+  Rendered pages/deposer.html.slim within layouts/application (40.8ms)
+Completed 200 OK in 96ms (Views: 89.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 14:55:16 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (11.3ms)
+Completed 200 OK in 71ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-17 14:55:34 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (33.5ms)
+Completed 200 OK in 82ms (Views: 77.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 14:57:41 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (14.4ms)
+Completed 200 OK in 94ms (Views: 88.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:04:03 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (10.5ms)
+Completed 200 OK in 45ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:13:05 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (12.6ms)
+Completed 401 Unauthorized in 532ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Inconsistent indentation: 1 space was used for indentation, but the rest of the document was indented using 2 spaces.):
+    3:   <head>
+    4:     <title>Furnitroc</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    8:     <meta charset="utf-8">
+    9:     <title>Furnitroc</title>
+  
+app/assets/stylesheets/pages.sass:297
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__717056291580778247_70124198247260'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.0ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (168.8ms)
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:13:32 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (16.2ms)
+Completed 200 OK in 848ms (Views: 844.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:14:50 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (19.4ms)
+Completed 200 OK in 61ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:15:31 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (17.9ms)
+Completed 401 Unauthorized in 412ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 2 spaces.):
+    3:   <head>
+    4:     <title>Furnitroc</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    8:     <meta charset="utf-8">
+    9:     <title>Furnitroc</title>
+  
+app/assets/stylesheets/pages.sass:381
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__717056291580778247_70124195528420'
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.1ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/jimmy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (137.8ms)
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:15:45 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (15.5ms)
+Completed 200 OK in 984ms (Views: 980.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:16:30 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (18.5ms)
+Completed 200 OK in 66ms (Views: 62.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:17:06 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (16.3ms)
+Completed 200 OK in 63ms (Views: 58.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:18:45 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (17.9ms)
+Completed 200 OK in 71ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:19:35 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (11.2ms)
+Completed 200 OK in 980ms (Views: 975.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:19:50 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (14.4ms)
+Completed 200 OK in 786ms (Views: 782.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:20:49 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (10.9ms)
+Completed 200 OK in 65ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:21:15 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (8.2ms)
+Completed 200 OK in 64ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:22:32 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (7.6ms)
+Completed 200 OK in 977ms (Views: 972.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:22:56 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (19.5ms)
+Completed 200 OK in 68ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:23:16 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (16.2ms)
+Completed 200 OK in 948ms (Views: 944.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:24:22 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (14.2ms)
+Completed 200 OK in 73ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:25:38 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (14.1ms)
+Completed 200 OK in 55ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:26:27 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (13.2ms)
+Completed 200 OK in 82ms (Views: 76.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:26:33 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (10.2ms)
+Completed 200 OK in 46ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:26:49 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (31.4ms)
+Completed 200 OK in 80ms (Views: 77.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:27:04 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (14.0ms)
+Completed 200 OK in 59ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:27:52 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (9.6ms)
+Completed 200 OK in 55ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:28:02 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (9.3ms)
+Completed 200 OK in 51ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:29:03 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (10.0ms)
+Completed 200 OK in 43ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:29:24 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (10.1ms)
+Completed 200 OK in 53ms (Views: 49.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:29:44 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (13.6ms)
+Completed 200 OK in 56ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:30:01 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (11.0ms)
+Completed 200 OK in 57ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-17 15:30:28 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (22.0ms)
+Completed 200 OK in 59ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:30:44 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (10.0ms)
+Completed 200 OK in 71ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:31:18 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (10.7ms)
+Completed 200 OK in 52ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:31:37 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (10.3ms)
+Completed 200 OK in 51ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:32:04 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (8.0ms)
+Completed 200 OK in 50ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:33:18 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (11.3ms)
+Completed 200 OK in 46ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:33:35 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (10.9ms)
+Completed 200 OK in 48ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:33:50 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (10.0ms)
+Completed 200 OK in 46ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:34:05 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (11.2ms)
+Completed 200 OK in 51ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:34:22 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (10.0ms)
+Completed 200 OK in 56ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:34:41 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (11.3ms)
+Completed 200 OK in 60ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:35:03 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (8.8ms)
+Completed 200 OK in 54ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:35:24 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (11.2ms)
+Completed 200 OK in 58ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:37:34 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (9.0ms)
+Completed 200 OK in 912ms (Views: 905.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:37:49 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (13.3ms)
+Completed 200 OK in 899ms (Views: 895.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:44:18 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (16.5ms)
+Completed 200 OK in 68ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:44:35 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (9.5ms)
+Completed 200 OK in 882ms (Views: 877.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:46:06 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (17.0ms)
+Completed 200 OK in 1137ms (Views: 1133.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:46:30 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (19.6ms)
+Completed 200 OK in 1007ms (Views: 1003.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:47:33 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (28.0ms)
+Completed 200 OK in 110ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:48:19 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (17.1ms)
+Completed 200 OK in 69ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:48:30 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (19.4ms)
+Completed 200 OK in 74ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:48:41 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (20.2ms)
+Completed 200 OK in 63ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:49:42 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (15.2ms)
+Completed 200 OK in 58ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:50:06 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (17.1ms)
+Completed 200 OK in 78ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:51:26 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (19.6ms)
+Completed 200 OK in 62ms (Views: 57.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:51:39 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (24.7ms)
+Completed 200 OK in 76ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:52:00 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (12.6ms)
+Completed 200 OK in 64ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:52:14 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (17.1ms)
+Completed 200 OK in 57ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:53:41 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (14.9ms)
+Completed 200 OK in 54ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:57:04 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (14.8ms)
+Completed 200 OK in 62ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:57:39 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (13.7ms)
+Completed 200 OK in 48ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:57:48 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (15.8ms)
+Completed 200 OK in 68ms (Views: 65.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:57:54 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (16.1ms)
+Completed 200 OK in 70ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 15:59:44 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (24.8ms)
+Completed 200 OK in 1152ms (Views: 1145.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 16:00:31 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (31.5ms)
+Completed 200 OK in 81ms (Views: 76.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 16:00:54 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (16.7ms)
+Completed 200 OK in 54ms (Views: 50.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 16:00:58 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (18.3ms)
+Completed 200 OK in 56ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retirer" for 127.0.0.1 at 2018-03-17 16:01:06 +0100
+Processing by PagesController#retirer as HTML
+  Rendering pages/retirer.html.slim within layouts/application
+  Rendered pages/retirer.html.slim within layouts/application (16.8ms)
+Completed 200 OK in 62ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
