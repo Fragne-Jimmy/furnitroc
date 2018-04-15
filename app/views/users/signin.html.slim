@@ -5,6 +5,10 @@
 
   = form_tag "/users/login", method: :post do
 
+    input data-icon="" name="sex" type="radio" value="f"
+    input data-icon="" name="sex" type="radio" value="m"
+    br
+    br
     => label_tag(:name_field, "Nom")
     = text_field(:p , :name_field, :class=>'grise', :size=>'20')
     br
